@@ -19,7 +19,6 @@ class Solution {
                 sum = 0;
             }
         }
-
         // if (max < 0) max = 0;
 
         return max;
