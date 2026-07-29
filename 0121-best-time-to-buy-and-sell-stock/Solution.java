@@ -4,7 +4,7 @@ class Solution {
         int profit = Integer.MIN_VALUE;
         for(int i=0; i<n; i++){
             for(int j=i+1; j<n; j++){
-                sellProfit 
+                sellProfit = nums[j]-
             }
         }
     }
