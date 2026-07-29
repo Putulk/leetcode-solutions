@@ -5,7 +5,7 @@ class Solution {
         for(int i=0; i<n; i++){
             for(int j=i+1; j<n; j++){
                 sellProfit = nums[j]-nums[i];
-                if(num)
+                if(s)
             }
         }
     }
