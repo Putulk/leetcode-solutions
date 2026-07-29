@@ -20,10 +20,6 @@ class Solution {
             }
         }
 
-        System.out.print("The subarray is: ");
-        for (int i = ansStart; i <= ansEnd; i++) {
-            System.out.print(nums[i] + " ");
-        }
         // if (max < 0) max = 0;
 
         return max;
