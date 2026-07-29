@@ -10,6 +10,9 @@ class Solution {
                 }
             }
         }
+        if(profit < 0){
+            profit = 0;
+        }
         return profit;
     }
 }
