@@ -8,6 +8,7 @@ class Solution {
                 if(sellProfit > profit){
                     profit= sellProfit;
                 }
+                
             }
         }
         return profit;
