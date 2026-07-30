@@ -11,6 +11,7 @@ class Solution {
                 neg[i]=nums[i];
             }
         }
-        
+
+        f
     }
 }
