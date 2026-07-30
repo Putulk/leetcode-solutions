@@ -8,8 +8,9 @@ class Solution {
                 pos[i]=nums[i];
             }
             else{
-                neg[i]=nu
+                neg[i]=nums[i];
             }
         }
+        
     }
 }
