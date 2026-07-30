@@ -10,12 +10,10 @@ class Solution {
                 p=p+2;
             }
             else{
-                neg[]=nums[i];
+                neg[n]=nums[i];
                 n=n+2;
             }
         }
-
-    
 
         return nums;
     }
