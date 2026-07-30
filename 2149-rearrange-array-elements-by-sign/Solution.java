@@ -10,7 +10,8 @@ class Solution {
                 p=p+2;
             }
             else{
-                neg[n+]=nums[i];
+                neg[]=nums[i];
+                
             }
         }
 
