@@ -4,7 +4,7 @@ class Solution {
         int max = 0; 
         int min = Integer.MIN_VALUE;
         for(int i=0; i<n; i++){
-            int cost=
+            int cost= 
         }
         if(profit < 0){
             profit = 0;
