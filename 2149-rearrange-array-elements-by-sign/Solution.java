@@ -17,6 +17,6 @@ class Solution {
             nums[2*i+1]=neg[i];
         }
 
-        re
+        return
     }
 }
