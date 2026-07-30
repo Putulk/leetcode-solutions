@@ -12,6 +12,6 @@ class Solution {
             }
         }
 
-        f
+        for(i)
     }
 }
