@@ -15,10 +15,7 @@ class Solution {
             }
         }
 
-        for(int i=0; i<nums.length/2; i++){
-            nums[2*i]=pos[i];
-            nums[2*i+1]=neg[i];
-        }
+    
 
         return nums;
     }
