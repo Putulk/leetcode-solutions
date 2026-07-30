@@ -8,7 +8,7 @@ class Solution {
                 min = prices[i];
             }
             else{
-                ma
+                max = M
             }
         }
         return max;
