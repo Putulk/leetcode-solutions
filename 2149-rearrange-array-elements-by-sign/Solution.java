@@ -12,7 +12,7 @@ class Solution {
             }
         }
 
-        for(int i=0; i<n; i++){
+        for(int i=0; i<nu; i++){
             nums[2*i]=pos[i];
             nums[2*i+1]=neg[i];
         }
