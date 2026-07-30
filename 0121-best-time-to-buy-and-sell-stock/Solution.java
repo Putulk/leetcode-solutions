@@ -4,7 +4,7 @@ class Solution {
         int max = 0; 
         int min = Integer.MIN_VALUE;
         for(int i=0; i<n; i++){
-            if(prices[i] < ma)
+            if(prices[i] < min){}
             int cost = prices[i]-min;
 
         }
