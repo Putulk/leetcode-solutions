@@ -9,7 +9,7 @@ class Solution {
                 pos[p++]=nums[i];
             }
             else{
-                neg[i]=nums[i];
+                neg[]=nums[i];
             }
         }
 
