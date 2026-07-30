@@ -7,7 +7,9 @@ class Solution {
             if(nums[i] > 0){
                 pos[i]=nums[i];
             }
-            els
+            else{
+                n
+            }
         }
     }
 }
