@@ -8,7 +8,7 @@ class Solution {
                 min = prices[i];
             }
             else{
-                max = Math.max()
+                max = Math.max(m)
             }
         }
         return max;
