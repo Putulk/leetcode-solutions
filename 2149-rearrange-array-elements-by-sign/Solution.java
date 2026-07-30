@@ -14,7 +14,8 @@ class Solution {
 
         for(int i=0; i<n; i++){
             nums[2*i]=pos[i];
-            nums[2*i+1]=neg[i]
+            nums[2*i+1]=neg[i];
         }
+        
     }
 }
