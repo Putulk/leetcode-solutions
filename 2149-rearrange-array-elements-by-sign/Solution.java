@@ -13,7 +13,7 @@ class Solution {
         }
 
         for(int i=0; i<n; i++){
-            nums[2*i]=po
+            nums[2*i]=pos[i];
         }
     }
 }
