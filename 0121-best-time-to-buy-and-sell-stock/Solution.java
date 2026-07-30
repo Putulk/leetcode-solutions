@@ -5,7 +5,7 @@ class Solution {
         int min = prices[0];
         for(int i=0; i<n; i++){
             if(prices[i] < min){
-                min = pices[i];
+                min = prices[i];
                 max = prices[i]-min;
             }
         }
