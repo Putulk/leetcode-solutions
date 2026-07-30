@@ -6,11 +6,11 @@ class Solution {
 
         for(int i=0; i<nums.length; i++){
             if(nums[i] > 0){
-                num[p]=nums[i];
+                nums[p]=nums[i];
                 p=p+2;
             }
             else{
-                neg[n]=nums[i];
+                nums[n]=nums[i];
                 n=n+2;
             }
         }
