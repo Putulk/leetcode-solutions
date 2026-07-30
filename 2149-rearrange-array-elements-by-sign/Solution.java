@@ -7,7 +7,7 @@ class Solution {
         for(int i=0; i<nums.length-1; i++){
             if(nums[i] > 0){
                 nums[p]=nums[i];
-                p+
+                p+=2;
             }
             else{
                 nums[n]=nums[i];
