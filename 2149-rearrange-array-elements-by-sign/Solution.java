@@ -7,10 +7,10 @@ class Solution {
         for(int i=0; i<nums.length; i++){
             if(nums[i] > 0){
                 pos[p]=nums[i];
-                p=p
+                p=p+2;
             }
             else{
-                neg[n++]=nums[i];
+                neg[n+]=nums[i];
             }
         }
 
