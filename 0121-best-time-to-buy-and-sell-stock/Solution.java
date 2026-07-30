@@ -5,7 +5,7 @@ class Solution {
         int min = Integer.MIN_VALUE;
         for(int i=0; i<n; i++){
             if(prices[i] < min){
-                min
+                min = p
             }
             int cost = prices[i]-min;
 
