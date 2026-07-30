@@ -7,7 +7,7 @@ class Solution {
             if(prices[i] < min){
                 min = prices[i];
             }
-            
+            es
         }
         return max;
     }
