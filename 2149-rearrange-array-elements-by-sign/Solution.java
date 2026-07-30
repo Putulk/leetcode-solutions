@@ -12,6 +12,6 @@ class Solution {
             }
         }
 
-        for(i)
+        for(int i=)
     }
 }
