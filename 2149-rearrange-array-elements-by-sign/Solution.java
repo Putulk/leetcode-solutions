@@ -1,5 +1,5 @@
 class Solution {
     public int[] rearrangeArray(int[] nums) {
-        i
+        int[] po
     }
 }
