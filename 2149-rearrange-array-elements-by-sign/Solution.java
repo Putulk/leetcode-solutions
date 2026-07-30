@@ -4,7 +4,7 @@ class Solution {
         // int[] neg = new int[nums.length/2];
         int p=0, n=1;
 
-        for(int i=0; i<nums.length-; i++){
+        for(int i=0; i<nums.length-1; i++){
             if(nums[i] > 0){
                 nums[p]=nums[i];
                 p=p+2;
