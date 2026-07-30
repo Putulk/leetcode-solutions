@@ -6,7 +6,6 @@ class Solution {
         for(int i=1; i<n; i++){
             if(prices[i] < min){
                 min = prices[i];
-                
             }
         }
         return max;
