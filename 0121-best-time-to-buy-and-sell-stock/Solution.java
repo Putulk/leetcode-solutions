@@ -9,6 +9,6 @@ class Solution {
                 max = prices[i]-min;
             }
         }
-        return ma;
+        return max;
     }
 }
