@@ -1,5 +1,5 @@
 class Solution {
     public int minimumPushes(String word) {
-        for(int i=)
+        for(int i=0; )
     }
 }
