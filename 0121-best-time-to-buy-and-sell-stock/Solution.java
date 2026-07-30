@@ -5,14 +5,10 @@ class Solution {
         int min = Integer.MIN_VALUE;
         for(int i=0; i<n; i++){
             if(prices[i] < min){
-                min = p
+                min = peices[i];
+                max = prices[i]-min;
             }
-            int cost = prices[i]-min;
-
         }
-        if(profit < 0){
-            profit = 0;
-        }
-        return profit;
+        return ma;
     }
 }
