@@ -3,11 +3,11 @@ class Solution {
         // int[] pos = new int[nums.length/2];
         // int[] neg = new int[nums.length/2];
         int p=0, n=1;
-        
+        int[] ans = new int[nums.length];
 
         for(int i=0; i<nums.length-1; i++){
             if(nums[i] > 0){
-                nums[p]=nums[i];
+                a[p]=nums[i];
                 p+=2;
             }
             else{
