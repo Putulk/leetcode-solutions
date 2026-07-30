@@ -7,7 +7,7 @@ class Solution {
         for(int i=0; i<nums.length; i++){
             if(nums[i] > 0){
                 pos[p]=nums[i];
-
+    
             }
             else{
                 neg[n++]=nums[i];
