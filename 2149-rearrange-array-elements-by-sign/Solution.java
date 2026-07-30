@@ -3,7 +3,7 @@ class Solution {
         int[] pos = new int[nums.length/2];
         int[] neg = new int[nums.length/2];
 
-        for(int i=1; i<nums.length; i++){
+        for(int i=; i<nums.length; i++){
             if(nums[i] > 0){
                 pos[i]=nums[i];
             }
