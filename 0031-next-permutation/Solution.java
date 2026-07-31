@@ -14,7 +14,9 @@ class Solution {
         int j = n-1;
 
         while(i<j){
-            if(nums[i]<nums[i+1]){}
+            if(nums[i]<nums[i+1]){
+                
+            }
         }
     }
 }
