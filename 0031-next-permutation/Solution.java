@@ -11,7 +11,7 @@ class Solution {
             Collections.reverse(Arrays.asList(nums)); 
         }
         for(int num : nums){
-            Syt
+            System.
         }
         int i = piv+1;
         int j = nums.length-1;
