@@ -8,7 +8,7 @@ class Solution {
             }
         }
         if(piv == -1){
-            Collections.reverse(Arrays.asList(arr)); 
+            Collections.reverse(Arrays.asList(nums)); 
         }
     }
 }
