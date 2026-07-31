@@ -10,7 +10,9 @@ class Solution {
         if(piv == -1){
             Collections.reverse(Arrays.asList(nums)); 
         }
-        for(int num : nums){}
+        for(int num : nums){
+            Syt
+        }
         int i = piv+1;
         int j = nums.length-1;
 
