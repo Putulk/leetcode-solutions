@@ -2,7 +2,7 @@ class Solution {
     public void nextPermutation(int[] nums) {
         int piv = -1; 
         for(int i=nums.length-1; i>piv; i--){
-            if(nums[i]<nums[i+1]){
+            if(nums[i]<nums[i+]){
                 piv = i;
                 break;
             }
