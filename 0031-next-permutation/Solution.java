@@ -7,7 +7,7 @@ class Solution {
                 break;
             }
         }
-        if(piv ==)
+        if(piv == 1)
         int i = piv+1;
         int j = nums.length-1;
 
