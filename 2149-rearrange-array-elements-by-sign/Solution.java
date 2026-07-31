@@ -1,6 +1,6 @@
 class Solution {
     public int[] rearrangeArray(int[] nums) {
-        int pod=0, n=1;
+        int pos=0, n=1;
         int[] ans = new int[nums.length];
 
         for(int i=0; i<nums.length; i++){
