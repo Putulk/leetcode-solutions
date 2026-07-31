@@ -5,11 +5,11 @@ class Solution {
 
         for(int i=0; i<nums.length; i++){
             if(nums[i] > 0){
-                ans[p]=nums[i];
+                ans[pos]=nums[i];
                 pos+=2;
             }
             else{
-                ans[ne]=nums[i];
+                ans[neg]=nums[i];
                 neg=n+2;
             }
         }
