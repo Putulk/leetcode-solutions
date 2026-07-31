@@ -8,7 +8,11 @@ class Solution {
             }
         }
         if(piv == -1){
-            Collections.reverse(Arrays.asList(nums)); 
+            for (int i = 0; i < n / 2; i++) {
+            int temp = arr[i];
+            arr[i] = arr[n - 1 - i];
+            arr[n - 1 - i] = temp;
+        }
         }
         int i = piv+1;
         int j = nums.length-1;
