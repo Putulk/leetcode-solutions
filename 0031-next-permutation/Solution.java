@@ -18,4 +18,12 @@ class Solution {
             i++; j--;
         }
     }
+
+    private void reverse(int[] arr, int start, int end) {
+        while (start < end) {
+            swap(arr, start, end);
+            start++;
+            end--;
+        }
+    }
 }
