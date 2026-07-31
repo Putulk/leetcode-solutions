@@ -10,6 +10,6 @@ class Solution {
         if(piv == -1){
             Collections.reverse(Arrays.asList(nums)); 
         }
-        
+        int i = 
     }
 }
