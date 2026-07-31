@@ -10,7 +10,7 @@ class Solution {
             }
             else{
                 ans[neg]=nums[i];
-                neg=n+2;
+                neg=ne+2;
             }
         }
 
