@@ -20,9 +20,7 @@ class Solution {
         for (int i = nums.length - 1; i > piv; i--) {
             if (nums[i] > nums[piv]) {
                 swap(nums, i, piv);
-                break;
-            }
-        }
+                bre        }
 
         // Step 4: Reverse the suffix
         reverse(nums, piv + 1, nums.length - 1);
