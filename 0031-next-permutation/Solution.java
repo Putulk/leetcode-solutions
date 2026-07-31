@@ -11,7 +11,7 @@ class Solution {
             for (int i = 0; i < nums.length-1; i++) {
             int temp = nums[i];
             nums[i] = nums[nums.length - 1 - i];
-        nums[nums.length - 1 - i] = temp;
+    nums[nums.length - 1 - i] = temp;
         
         }
         int i = piv+1;
