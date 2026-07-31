@@ -14,7 +14,7 @@ class Solution {
         int j = n-1;
 
         while(i<j){
-            if(n)
+            if(nums[i])
         }
     }
 }
