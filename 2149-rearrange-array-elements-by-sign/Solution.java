@@ -6,11 +6,11 @@ class Solution {
         for(int i=0; i<nums.length; i++){
             if(nums[i] > 0){
                 ans[p]=nums[i];
-                po+=2;
+                pos+=2;
             }
             else{
                 ans[n]=nums[i];
-                n=n+2;
+                neh=n+2;
             }
         }
 
