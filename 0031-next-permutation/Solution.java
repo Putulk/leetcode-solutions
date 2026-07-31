@@ -10,8 +10,8 @@ class Solution {
         if(piv == -1){
             for (int i = 0; i < nums.length-1; i++) {
             int temp = nums[i];
-            nums[i] = arr[n - 1 - i];
-            arr[n - 1 - i] = temp;
+            nums[i] = nums[n - 1 - i];
+            nums[n - 1 - i] = temp;
         }
         }
         int i = piv+1;
