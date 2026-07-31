@@ -9,8 +9,8 @@ class Solution {
                 pos+=2;
             }
             else{
-                ans[n]=nums[i];
-                neh=n+2;
+                ans[ne]=nums[i];
+                neg=n+2;
             }
         }
 
