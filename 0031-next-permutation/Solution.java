@@ -11,6 +11,8 @@ class Solution {
             Collections.reverse(Arrays.asList(nums)); 
         }
         int i = piv+1;
-        int j = n-1
+        int j = n-1;
+
+        whi
     }
 }
