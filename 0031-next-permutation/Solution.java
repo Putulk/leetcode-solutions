@@ -13,6 +13,6 @@ class Solution {
         int i = piv+1;
         int j = n-1;
 
-        whi
+        while(i<)
     }
 }
