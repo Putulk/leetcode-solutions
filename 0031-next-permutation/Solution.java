@@ -7,13 +7,7 @@ class Solution {
                 break;
             }
         }
-        if(piv == -1){
-            for (int i = 0; i < nums.length-1; i++) {
-                int temp = nums[i];
-                nums[i] = nums[nums.length - 1 - i];
-                nums[nums.length - 1 - i] = temp;
-        
-        }
+
         int i = piv+1;
         int j = nums.length-1;
 
