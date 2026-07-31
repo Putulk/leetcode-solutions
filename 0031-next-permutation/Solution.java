@@ -8,7 +8,7 @@ class Solution {
             }
         }
         if(piv == -1){
-            reverse(nums, 0)
+            reverse(nums, 0, num)
         }
         int i = piv+1;
         int j = nums.length-1;
