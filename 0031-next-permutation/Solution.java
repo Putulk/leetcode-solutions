@@ -14,7 +14,10 @@ class Solution {
         int j = n-1;
 
         while(i<=j){
-            in
+            int temp = nums[i];
+            nums[i] = nums[j];
+            nums[j] = temp;
+            i++; j--;
         }
     }
 }
