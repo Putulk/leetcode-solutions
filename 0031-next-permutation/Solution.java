@@ -7,6 +7,8 @@ class Solution {
                 break;
             }
         }
-        if(pi)
+        if(piv == -1){
+            
+        }
     }
 }
