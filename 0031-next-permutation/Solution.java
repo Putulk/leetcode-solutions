@@ -8,7 +8,7 @@ class Solution {
             }
         }
         if(piv == -1){
-            for (int i = 0; i < nums.length / ; i++) {
+            for (int i = 0; i < nums.length-; i++) {
             int temp = arr[i];
             arr[i] = arr[n - 1 - i];
             arr[n - 1 - i] = temp;
