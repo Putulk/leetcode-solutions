@@ -1,7 +1,7 @@
 class Solution {
     public void nextPermutation(int[] nums) {
         int piv = -1; 
-        for(int i=nums.length-; i>=0; i--){
+        for(int i=nums.length-2; i>=0; i--){
             if(nums[i]<nums[i+1]){
                 piv = i;
                 break;
@@ -10,6 +10,7 @@ class Solution {
         if(piv == -1){
             Collections.reverse(Arrays.asList(nums)); 
         }
+        for(i)
         int i = piv+1;
         int j = nums.length-1;
 
