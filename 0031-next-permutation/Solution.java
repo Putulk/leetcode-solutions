@@ -11,7 +11,7 @@ class Solution {
             Collections.reverse(Arrays.asList(nums)); 
         }
         int i = piv+1;
-        int j = num-1;
+        int j = nums.length-1;
 
         while(i<=j){
             int temp = nums[i];
