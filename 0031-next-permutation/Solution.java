@@ -21,7 +21,7 @@ class Solution {
         }
     }
 
-    private void reverse(int[] nu, int start, int end) {
+    private void reverse(int[] arr, int start, int end) {
         while (start < end) {
             swap(arr, start, end);
             start++;
