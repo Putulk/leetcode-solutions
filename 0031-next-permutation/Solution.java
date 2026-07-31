@@ -4,7 +4,7 @@ class Solution {
         for(int i=n-1; i>piv; i--){
             if(nums[i]<nums[i+1]){
                 piv = i;
-                
+                break
             }
         }
     }
