@@ -3,7 +3,7 @@ class Solution {
         int n=nums.length;
         int longest = 1;
 
-        if(n==1){
+        if(n==0){
             return 
         }
         for(int i=0; i<n; i++){
