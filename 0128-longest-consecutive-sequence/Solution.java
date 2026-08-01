@@ -11,7 +11,15 @@ class Solution {
             set.add(num);
         }
         for(int st : set){
-            if(!(st.contains(s)))
+            if(!(st.contains(st-1))){
+                int cnt=1; 
+                int curr = st;
+
+                while(set.contains(curr+1)){
+                    curr = curr+1;
+                    cnt = 
+                }
+            }
             while(linearSearch(nums, curr+1) == true){
                 curr += 1;
                 cnt+=1;
