@@ -6,7 +6,8 @@ class Solution {
             int curr = nums[i];
             int cnt =1;
             while(linearSearch(nums, curr+1) == true){
-                curr += 
+                curr += 1;
+                
             }
         }
     }
