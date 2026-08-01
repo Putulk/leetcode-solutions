@@ -19,12 +19,9 @@ class Solution {
                     curr = curr+1;
                     cnt = cnt+1;
                 }
-                
+
             }
-            while(linearSearch(nums, curr+1) == true){
-                curr += 1;
-                cnt+=1;
-            }
+        
             longest = Math.max(longest, cnt);
         }
         return longest;
