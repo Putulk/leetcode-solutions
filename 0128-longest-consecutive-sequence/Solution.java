@@ -5,7 +5,9 @@ class Solution {
         for(int i=0; i<n; i++){
             int curr = nums[i];
             int cnt =1;
-            while((linearSearch(nums, curr+1) == true)){}
+            while((linearSearch(nums, curr+1) == true)){
+                
+            }
         }
     }
 
