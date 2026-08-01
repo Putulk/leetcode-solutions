@@ -4,8 +4,8 @@ class Solution {
         int longest = 1;
         for(int i=0; i<n; i++){
             int curr = nums[i];
-            int c
-            if(nums)
+            int cnt =1;
+            if(nums
         }
     }
 
