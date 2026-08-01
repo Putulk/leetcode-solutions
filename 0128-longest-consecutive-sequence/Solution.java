@@ -1,5 +1,5 @@
 class Solution {
     public int longestConsecutive(int[] nums) {
-        int n=n
+        int n=nums.;lengt
     }
 }
