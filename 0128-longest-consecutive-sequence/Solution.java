@@ -7,7 +7,7 @@ class Solution {
             int cnt =1;
             while(linearSearch(nums, curr+1) == true){
                 curr += 1;
-                cnt+
+                cnt+=1;
             }
         }
     }
