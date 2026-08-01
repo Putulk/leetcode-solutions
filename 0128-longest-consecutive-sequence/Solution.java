@@ -11,7 +11,7 @@ class Solution {
             set.add(num);
         }
         for(int st : set){
-            if(!(st.contains(st-1))){
+            if(!(set.contains(st-1))){
                 int cnt=1; 
                 int curr = st;
 
@@ -19,10 +19,8 @@ class Solution {
                     curr = curr+1;
                     cnt = cnt+1;
                 }
-
+                longest = Math.max(longest, cnt);
             }
-        
-            longest = Math.max(longest, cnt);
         }
         return longest;
     }
