@@ -9,7 +9,7 @@ class Solution {
     private boolean linearSearch(int[] nums, int num){
         int n = nums.length;
         for(int i=0; i<n; i++){
-            if(nums[i] == )
+            if(nums[i] == num)
         }
     }
 }
