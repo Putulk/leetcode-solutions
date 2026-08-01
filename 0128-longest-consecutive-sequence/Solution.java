@@ -11,7 +11,7 @@ class Solution {
             set.add(num);
         }
         for(int st : set){
-            if(!(s))
+            if(!(st.co))
             while(linearSearch(nums, curr+1) == true){
                 curr += 1;
                 cnt+=1;
