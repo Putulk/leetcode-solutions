@@ -17,7 +17,7 @@ class Solution {
 
                 while(set.contains(curr+1)){
                     curr = curr+1;
-                    cnt = 
+                    cnt = cnt+
                 }
             }
             while(linearSearch(nums, curr+1) == true){
