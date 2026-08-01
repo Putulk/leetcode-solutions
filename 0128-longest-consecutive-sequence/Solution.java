@@ -1,7 +1,9 @@
 class Solution {
     public int longestConsecutive(int[] nums) {
         int longest = 1;
-        if(nums.length == 0){}
+        if(nums.length == 0){
+            return 0;
+        }
         for(int num: nums){
             set.add(num);
         }
