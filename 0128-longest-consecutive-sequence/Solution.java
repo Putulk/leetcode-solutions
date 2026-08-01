@@ -4,6 +4,7 @@ class Solution {
         int longest = 1;
         for(int i=0; i<n; i++){
             int curr = nums[i];
+            
             if(nums)
         }
     }
