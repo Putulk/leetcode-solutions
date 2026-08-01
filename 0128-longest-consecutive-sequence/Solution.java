@@ -6,8 +6,11 @@ class Solution {
         if(n==0){
             return 0;
         }
-        
-        for(int i=0; i<n; i++){
+        Set<Integer> set = new HashSet<>();
+        for(int num: nums){
+            set.add(num);
+        }
+        for(int st : set){
             int curr = nums[i];
             int cnt =1;
             while(linearSearch(nums, curr+1) == true){
