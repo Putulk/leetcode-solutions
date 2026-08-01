@@ -2,7 +2,7 @@ class Solution {
     public int longestConsecutive(int[] nums) {
         int n=nums.length;
         int longest = 1;
-        int
+        int c
         for(int i=0; i<n; i++){
             if(nums)
         }
