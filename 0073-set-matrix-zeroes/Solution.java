@@ -9,7 +9,10 @@ class Solution {
                         if (matrix[i][col] != 0)
                             matrix[i][col] = -1;
                     }
-                    
+                    for (int row = 0; row < m; row++) {
+                        if (matrix[row][j] != 0)
+                            matrix[row][j] = -1;
+                    }
                 }
             }
         }
