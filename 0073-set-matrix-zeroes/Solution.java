@@ -9,6 +9,7 @@ class Solution {
                         if (matrix[i][col] != 0)
                             matrix[i][col] = -1;
                     }
+                    
                 }
             }
         }
