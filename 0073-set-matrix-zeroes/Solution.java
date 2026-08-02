@@ -1,5 +1,5 @@
 class Solution {
     public void setZeroes(int[][] matrix) {
-        int n 
+        int n = mat
     }
 }
