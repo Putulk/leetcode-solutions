@@ -5,7 +5,7 @@ class Solution {
         for(int i=0; i<n; i++){
             for(int j=0; j<m; j++){
                 if(matrix[i][j] == 0){
-                    for (int col = 0; col < n; col++) {
+                    for (int col = 0; col < m; col++) {
                         if (matrix[i][col] != 0)
                             matrix[i][col] = -1;
                     }
