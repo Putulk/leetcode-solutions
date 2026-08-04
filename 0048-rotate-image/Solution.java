@@ -15,7 +15,7 @@ class Solution {
             while(left < right){
                 int temp = matrix[i][left];
                 matrix[i][left] = matrix[i][right];
-                matri
+                matrix[i]]
             }
         }
     }
