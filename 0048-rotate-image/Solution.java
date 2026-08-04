@@ -10,6 +10,6 @@ class Solution {
             }
         }
 
-        for()
+        for(in)
     }
 }
