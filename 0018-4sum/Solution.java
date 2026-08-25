@@ -9,7 +9,7 @@ class Solution {
                 int left = j+1;
                 int right = n-1;
                 while(left < right){
-                int sum = nu
+                int sum = nums[i]+
                 if(sum < 0){
                     j++;
                 }else if(sum > 0){
