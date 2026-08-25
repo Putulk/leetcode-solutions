@@ -7,7 +7,6 @@ class Solution {
             int k = n-1;
             int fourth = target -(nums[i]+nums[j]+nums[k]);
             while(j < k){
-                
                 int sum3 = (nums[i]+nums[j]+nums[k]);
                 if(sum < 0){
                     j++;
