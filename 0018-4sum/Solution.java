@@ -7,7 +7,7 @@ class Solution {
             int k = n-1;
             int fourth = target -(nums[i]+nums[j]+nums[k]);
             while(j < k){
-                int sum3 = (nums[i]+nums[j]+nums[k]);
+                int sum = (nums[i]+nums[j]+nums[k]);
                 if(sum < 0){
                     j++;
                 }else if(sum > 0){
@@ -18,6 +18,7 @@ class Solution {
                     inner.add(nums[j]);
                     inner.add(nums[k]);
                     inner.add(fourth);
+                    ans.add(inner);
                     j++;
                     k--;
                     while(j<k && nums[j] == nums[j-1]) j++;
@@ -26,6 +27,6 @@ class Solution {
             }
 
         }
-        r
+        return new ArrayList<>(ans);
     }
 }
