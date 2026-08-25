@@ -17,7 +17,7 @@ class Solution {
                     inner.add(nums[i]);
                     inner.add(nums[j]);
                     inner.add(nums[k]);
-                    inner.add(f)
+                    inner.add(fourth);
                 }
             }
 
