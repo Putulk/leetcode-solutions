@@ -17,6 +17,6 @@ class Solution {
                 set.add(nums[j]);
             }
         }
-        
+        return new ArrayList<>(ans);
     }
 }
