@@ -8,7 +8,7 @@ class Solution {
                 if (j > i+1 && arr[j] == arr[j - 1]) continue;
                 int left = j+1;
                 int right = n-1;
-                while(j < k){
+                while( < k){
                 int sum = (nums[i]+nums[j]+nums[k]);
                 if(sum < 0){
                     j++;
