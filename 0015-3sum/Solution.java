@@ -1,6 +1,6 @@
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
-        Set<Integer> set = new HashS<>();
+        Set<Integer> set = new HashSet<>();
         int n= nums.length;
         int k = 0;
         List<List<Integer>> ans = new ArrayList<>();
@@ -8,7 +8,7 @@ class Solution {
             for(int j=i+1; j<n; j++){
                 int nums[k] = (nums[i]+nums[j]);
                 List<Integer> innerList = new ArrayList<>();
-                if(map.containsKey(nums[k])){
+                if(map.containsKe(nums[k])){
                     innerList.add(nums[i]);
                     innerList.add(nums[j]);
                     innerList.add(nums[k]);
