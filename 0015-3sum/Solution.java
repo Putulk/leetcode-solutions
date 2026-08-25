@@ -10,7 +10,7 @@ class Solution {
                 if(nums[i]+nums[j]+nums[k] > 0){
                     k--;
                 }else if(nums[i]+nums[j]+nums[k] < 0){
-                    j
+                    j++;
                 }
             }
         }
