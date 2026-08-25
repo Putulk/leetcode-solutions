@@ -15,7 +15,7 @@ class Solution {
             else if(nums[i] == maj2){
                 cnt2++;
             }
-            else if(nums)
+            else if(nums[i] =)
         }
     }
 }
