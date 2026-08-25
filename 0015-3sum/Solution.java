@@ -7,7 +7,7 @@ class Solution {
             int k = n-1;
 
             while(j<=k){
-                if
+                if(nu)
             }
         }
         return new ArrayList<>(ans);
