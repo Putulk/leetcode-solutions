@@ -20,7 +20,8 @@ class Solution {
                     inner.add(nums[k]);
                     and.add(inner);
                     j++;
-                    k--
+                    k--;
+                    
                 }
             }
         }
