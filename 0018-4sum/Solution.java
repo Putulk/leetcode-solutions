@@ -6,8 +6,8 @@ class Solution {
             if (i > 0 && arr[i] == arr[i - 1]) continue;
             for(int j=i+1; j<n; j++){
                 int j = i+1;
-            int k = n-1;
-            int fourth = target -(nums[i]+nums[j]+nums[k]);
+                int k = n-1;
+                int fourth = target -(nums[i]+nums[j]+nums[k]);
             }
             
             while(j < k){
