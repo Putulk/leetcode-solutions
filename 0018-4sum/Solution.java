@@ -21,6 +21,7 @@ class Solution {
                     j++;
                     k--;
                     while(j<k) j++;
+                    whil
                 }
             }
 
