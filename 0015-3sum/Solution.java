@@ -19,7 +19,8 @@ class Solution {
                     inner.add(nums[j]);
                     inner.add(nums[k]);
                     and.add(inner);
-                    j
+                    j++;
+                    
                 }
             }
         }
