@@ -10,9 +10,9 @@ class Solution {
                 int right = n-1;
                 while(left < right){
                 int sum = nums[i]+nums[j]+nums[left]+nums[right];
-                if(sum < ta){
+                if(sum < target){
                     left++;
-                }else if(sum > 0){
+                }else if(sum > target){
                     right--;
                 }else{
                     List<Integer> inner = new ArrayList<>();
