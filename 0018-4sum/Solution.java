@@ -9,7 +9,7 @@ class Solution {
                 int sum3 = (nums[i]+nums[j]+nums[k]);
                 if(sum < 0){
                     j++;
-                }
+                }els
             }
 
         }
