@@ -21,7 +21,7 @@ class Solution {
                     and.add(inner);
                     j++;
                     k--;
-                    while(nums[j] == nums[j-1]) 
+                    while(nums[j] == nums[j-1]) continu
                 }
             }
         }
