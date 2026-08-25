@@ -5,7 +5,7 @@ class Solution {
         for(int i=0; i<n-1; i++){
             int j = i+1;
             int k = n-1;
-            int comp = nums[]
+            int comp = nums[i]+num
         }
     }
 }
