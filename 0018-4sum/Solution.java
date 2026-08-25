@@ -6,8 +6,7 @@ class Solution {
             int j = i+1;
             int k = n-1;
             while(j < k){<
-            
-                int comp = target - (nums[i]+nums[j]+nums[k]);
+                int cs(nums[i]+nums[j]+nums[k]);
                 if(comp )
             }
 
