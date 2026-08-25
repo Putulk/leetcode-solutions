@@ -14,7 +14,7 @@ class Solution {
                     innerList.add(thirdElement);
                     ans.add(innerList);
                     Collections.sort(innerList);
-                
+            
                 }else{
                     set.add(nums[j]);
                 }
