@@ -6,7 +6,7 @@ class Solution {
         List<List<Integer>> ans = new ArrayList<>();
         for(int i=0; i<n; i++){
             for(int j=i+1; j<n; j++){
-                nums[k] = -(nums[i]+nums[j]);
+                nums[k = -(nums[i]+nums[j]);
                 List<Integer> innerList = new ArrayList<>();
                 if(set.contains(nums[k])){
                     innerList.add(nums[i]);
