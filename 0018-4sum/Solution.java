@@ -11,9 +11,9 @@ class Solution {
                 while(left < right){
                 int sum = nums[i]+nums[j]+nums[left]+nums[right];
                 if(sum < 0){
-                    le++;
+                    left++;
                 }else if(sum > 0){
-                    k--;
+                    rig--;
                 }else{
                     List<Integer> inner = new ArrayList<>();
                     inner.add(nums[i]);
