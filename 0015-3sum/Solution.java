@@ -3,6 +3,7 @@ class Solution {
         int n= nums.length;
         List<List<Integer>> ans = new ArrayList<>();
         for(int i=0; i<n; i++){
+            
             for(int j=i+1; j<n; j++){
                 int thirdElement = -(nums[i]+nums[j]);
                 List<Integer> innerList = new ArrayList<>();
