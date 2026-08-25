@@ -11,7 +11,7 @@ class Solution {
                 if(set.contains(thirdElement){
                     innerList.add(nums[i]);
                     innerList.add(nums[j]);
-                    innerList.add();
+                    innerList.add(thirdElement);
                     ans.add(innerList);
                     return ans;
                 }else{
