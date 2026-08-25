@@ -14,7 +14,7 @@ class Solution {
                 if(nums[i]+nums[j]+nums[k] < 0){
                     j++;
                 }else if(nums[i]+nums[j]+nums[k] < 0){
-                    j+;
+                    k--;
                 }else{
                     inner.add(nums[i]);
                     inner.add(nums[j]);
