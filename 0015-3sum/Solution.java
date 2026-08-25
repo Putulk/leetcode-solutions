@@ -19,7 +19,7 @@ class Solution {
                 }
             }
         }
-        Collections
+        Collections.sort
         return ans;
     }
 }
