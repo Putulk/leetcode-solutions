@@ -18,7 +18,7 @@ class Solution {
                     List<Integer> inner = new ArrayList<>();
                     inner.add(nums[i]);
                     inner.add(nums[j]);
-                    inner.add(nums[k]);
+                    inner.add(nums[le]);
                     inner.add(fourth);
                     ans.add(inner);
                     j++;
