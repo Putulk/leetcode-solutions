@@ -8,7 +8,7 @@ class Solution {
                 cnt1=1;
                 maj1=nums[i];
             }
-            else if(cn2==0 && nums[i] != m)
+            else if(cn2==0 && nums[i] != maj1){}
         }
     }
 }
