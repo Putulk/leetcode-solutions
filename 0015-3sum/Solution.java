@@ -11,7 +11,7 @@ class Solution {
                 if(map.containsKey(nums[k])){
                     innerList.add(nums[i]);
                     innerList.add(nums[j]);
-                    innerList.add(n)
+                    innerList.add(nums[k]);
                 }
             }
         }
