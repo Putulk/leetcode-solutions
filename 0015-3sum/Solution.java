@@ -6,7 +6,7 @@ class Solution {
             int j = i+1;
             int k = n-1;
 
-            while
+            while(j<=k)
         }
         return new ArrayList<>(ans);
     }
