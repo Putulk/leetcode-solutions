@@ -3,6 +3,7 @@ class Solution {
         int n = nums.length;
         List<List<Integer>> ans = new ArrayList<>();
         for(int i=0; i<n-1; i++){
+            
             int j = i+1;
             int k = n-1;
             int fourth = target -(nums[i]+nums[j]+nums[k]);
