@@ -4,7 +4,7 @@ class Solution {
         List<List<Integer>> ans = new ArrayList<>();
         for(int i=0; i<n-1; i++){
             if (i > 0 && arr[i] == arr[i - 1]) continue;
-            for(int j=i+1; j<n-1;)
+            for(int j=i+1; j<n-1; j+)
             int j = i+1;
             int k = n-1;
             int fourth = target -(nums[i]+nums[j]+nums[k]);
