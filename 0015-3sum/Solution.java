@@ -16,7 +16,6 @@ class Solution {
                     ans.add(innerList);
                 }
                     set.add(nums[j]);
-                
             }
         }
         return ans;
