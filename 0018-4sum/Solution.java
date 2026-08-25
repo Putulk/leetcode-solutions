@@ -14,7 +14,8 @@ class Solution {
                     k--;
                 }else{
                     List<Integer> inner = new ArrayList<>();
-                    inner.add(nums[i])
+                    inner.add(nums[i]);
+                    in
                 }
             }
 
