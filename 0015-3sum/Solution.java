@@ -27,6 +27,6 @@ class Solution {
                 }
             }
         }
-        return new ArrayList<>(ans);
+        return ans;
     }
 }
