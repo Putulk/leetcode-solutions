@@ -18,7 +18,7 @@ class Solution {
                     inner.add(nums[i]);
                     inner.add(nums[j]);
                     inner.add(nums[k]);
-                    an.add(inner);
+                    ans.add(inner);
                     j++;
                     k--;
                     while(nums[j] == nums[j-1]) j++;
