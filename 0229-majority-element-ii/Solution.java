@@ -2,9 +2,13 @@ class Solution {
     public List<Integer> majorityElement(int[] nums) {
         int n = nums.length;
         int maj1=0, maj2=0;
-        int cnt1=0, cn
+        int cnt1=0, cnt2=0;
         for(int i=0; i<n; i++){
-
+            if(cont1==0 && nums[i] != maj2){
+                cnt1=1;
+                maj1=nums[i];
+            }
+            else if()
         }
     }
 }
