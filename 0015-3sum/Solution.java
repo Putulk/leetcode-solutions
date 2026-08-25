@@ -15,7 +15,7 @@ class Solution {
                     ans.add(innerList);
                     return and;
                 }else{
-                    map.put(nums[k], nu)
+                    map.put(nums[k], num)
                 }
             }
         }
