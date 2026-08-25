@@ -14,7 +14,9 @@ class Solution {
                     innerList.add(nums[k]);
                     ans.add(innerList);
                     return and;
-                }e
+                }else{
+                    m
+                }
             }
         }
     }
