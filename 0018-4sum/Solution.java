@@ -5,13 +5,13 @@ class Solution {
         for(int i=0; i<n-1; i++){
             int j = i+1;
             int k = n-1;
-            while(j < k){<
+            while(j < k){
                 int sum3 = (nums[i]+nums[j]+nums[k]);
                 if(sum < 0){
                     j++;
                 }else if(sum > 0){
                     k--;
-                
+                }
             }
 
         }
