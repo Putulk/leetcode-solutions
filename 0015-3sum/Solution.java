@@ -11,7 +11,7 @@ class Solution {
                 continue;
             }
             while(j<k){
-                if(nums[i]+nums[j]+nums[k] > 0){
+                if(nums[i]+nums[j]+nums[k]  0){
                     k--;
                 }else if(nums[i]+nums[j]+nums[k] < 0){
                     j++;
