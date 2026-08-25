@@ -5,7 +5,7 @@ class Solution {
         for(int i=0; i<n-1; i++){
             if (i > 0 && arr[i] == arr[i - 1]) continue;
             for(int j=i+1; j<n-1; j++){
-                for (int j = i + 1; j < n; j++) {
+                
             }
             int j = i+1;
             int k = n-1;
