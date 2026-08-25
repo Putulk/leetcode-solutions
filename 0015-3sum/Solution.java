@@ -11,12 +11,12 @@ class Solution {
                 continue;
             }
             while(j<k){
-                List<Integer> inner = new ArrayList<>();
                 if(nums[i]+nums[j]+nums[k] < 0){
                     j++;
                 }else if(nums[i]+nums[j]+nums[k] > 0){
                     k--;
                 }else{
+                    
                     inner.add(nums[i]);
                     inner.add(nums[j]);
                     inner.add(nums[k]);
