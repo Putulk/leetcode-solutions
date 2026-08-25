@@ -10,7 +10,7 @@ class Solution {
                 List<Integer> innerList = new ArrayList<>();
                 if(map.containsKey(nums[k])){
                     innerList.add(nums[i]);
-                    inne
+                    innerLu
                 }
             }
         }
