@@ -10,8 +10,6 @@ class Solution {
                 int right = n-1;
                 
             }
-            
-
         }
         return new ArrayList<>(ans);
     }
