@@ -12,8 +12,7 @@ class Solution {
                     j++;
                 }else if(sum > 0){
                     k--;
-                }
-                el
+                
             }
 
         }
