@@ -2,7 +2,7 @@ class Solution {
     public List<Integer> majorityElement(int[] nums) {
         int n = nums.length;
         int maj1=0, maj2=0;
-        int cnt1=0, cnt
+        int cnt1=0, cn
         for(int i=0; i<n; i++){
 
         }
