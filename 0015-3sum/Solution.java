@@ -28,6 +28,6 @@ class Solution {
                 }
             }
         }
-        return new ArrayLans;
+        return new ArrayList<>ans;
     }
 }
