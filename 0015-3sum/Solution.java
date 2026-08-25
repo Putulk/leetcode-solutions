@@ -8,7 +8,7 @@ class Solution {
             for(int j=i+1; j<n; j++){
                 int  = -(nums[i]+nums[j]);
                 List<Integer> innerList = new ArrayList<>();
-                if(set.tcontains(nums[k])){
+                if(set.thirdcontains(nums[k])){
                     innerList.add(nums[i]);
                     innerList.add(nums[j]);
                     innerList.add(nums[k]);
