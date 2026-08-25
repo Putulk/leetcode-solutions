@@ -14,7 +14,7 @@ class Solution {
                     k--;
                 }else{
                     List<Integer> inner = new ArrayList<>();
-                    inn
+                    inner.a
                 }
             }
 
