@@ -20,7 +20,6 @@ class Solution {
                 }
             }
         }
-        Collection.sort(ans);
         return ans;
     }
 }
