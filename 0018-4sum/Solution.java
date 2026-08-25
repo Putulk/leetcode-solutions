@@ -5,10 +5,10 @@ class Solution {
         for(int i=0; i<n-1; i++){
             int j = i+1;
             int k = n-1;
-            while(j < k){
-            
+            while(j < k){<
+                Map<Integer, Integer> map = new HashMap<>();
                 int comp = target - (nums[i]+nums[j]+nums[k]);
-
+                if(comp )
             }
 
         }
