@@ -7,7 +7,7 @@ class Solution {
             int k = n-1;
             while(j < k){<
                 int sum3 = (nums[i]+nums[j]+nums[k]);
-                if(comp )
+                if(s )
             }
 
         }
