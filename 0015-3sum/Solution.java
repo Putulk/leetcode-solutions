@@ -3,7 +3,7 @@ class Solution {
         int n= nums.length;
         Arrays.sort(nums);
         Set<List<Integer>> ans = new HashSet<>();
-        for(int i=0; i<n-; i++){
+        for(int i=0; i<n-1; i++){
             int j = i+1;
             int k = n-1;
             
