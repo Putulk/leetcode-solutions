@@ -6,7 +6,7 @@ class Solution {
             int j = i+1;
             int k = j+1;
 
-            
+            f
         }
     }
 }
