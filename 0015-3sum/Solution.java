@@ -13,7 +13,7 @@ class Solution {
                     innerList.add(nums[j]);
                     innerList.add(thirdElement);
                     ans.add(innerList);
-                    Collections.sort
+                    Collections.sort(innerList);
                     return ans;
                 }else{
                     set.add(nums[j]);
