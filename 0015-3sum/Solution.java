@@ -15,7 +15,7 @@ class Solution {
                     ans.add(innerList);
                     return and;
                 }else{
-                    set.p(nums[k], )
+                    set.a(nums[k], )
                 }
             }
         }
