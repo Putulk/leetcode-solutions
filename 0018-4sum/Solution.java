@@ -24,7 +24,7 @@ class Solution {
                     j++;
                     k--;
                     while(j<k && nums[left] == nums[left-1]) left++;
-                    while(j<k && nums[k] == nums[right-1]) k--;
+                    while(j<k && nums[] == nums[right-1]) right--;
                 }
             }
 
