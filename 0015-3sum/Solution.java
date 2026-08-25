@@ -16,7 +16,7 @@ class Solution {
                 }else if(nums[i]+nums[j]+nums[k] > 0){
                     k--;
                 }else{
-                    
+                    List<Integer> inner = new ArrayList<>();
                     inner.add(nums[i]);
                     inner.add(nums[j]);
                     inner.add(nums[k]);
