@@ -6,7 +6,7 @@ class Solution {
             int j = i+1;
             int k = n-1;
             List<Integer> inner = new ArrayList<>();
-            if(nums[i] > 0 && nums[i] =)
+            if(nums[i] > 0 && nums[i] == nums)
             while(j<=k){
                 if(nums[i]+nums[j]+nums[k] > 0){
                     k--;
