@@ -7,7 +7,7 @@ class Solution {
             int k = n-1;
 
             while(j<=k){
-                if(nums[i]+)
+                if(nums[i]+nums[])
             }
         }
         return new ArrayList<>(ans);
