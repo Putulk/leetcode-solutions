@@ -15,7 +15,7 @@ class Solution {
                 }else{
                     List<Integer> inner = new ArrayList<>();
                     inner.add(nums[i]);
-                    inner.add
+                    inner.add(nums[])
                 }
             }
 
