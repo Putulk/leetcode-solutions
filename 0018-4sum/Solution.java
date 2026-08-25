@@ -13,7 +13,7 @@ class Solution {
                 if(sum < 0){
                     left++;
                 }else if(sum > 0){
-                    rig--;
+                    right--;
                 }else{
                     List<Integer> inner = new ArrayList<>();
                     inner.add(nums[i]);
