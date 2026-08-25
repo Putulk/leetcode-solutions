@@ -4,7 +4,7 @@ class Solution {
         Set<List<Integer>> ans = new HashSet<>();
         for(int i=0; i<n; i++){
             int j = i+1;
-            in
+            int k = n
         }
         return new ArrayList<>(ans);
     }
