@@ -9,7 +9,7 @@ class Solution {
             if(nums[i] > 0 && nums[i] == nums[i-1]){
                 continue;
             }
-            while(j<=k){
+            while(j<k){
                 if(nums[i]+nums[j]+nums[k] > 0){
                     k--;
                 }else if(nums[i]+nums[j]+nums[k] < 0){
