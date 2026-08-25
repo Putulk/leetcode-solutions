@@ -12,7 +12,9 @@ class Solution {
                 cnt2=1;
                 maj2=nums[i];
             }
-            else if(nums[i] == maj2){}
+            else if(nums[i] == maj2){
+                cn
+            }
         }
     }
 }
