@@ -6,7 +6,7 @@ class Solution {
             int j = i+1;
             int k = n-1;
             while(j < k){<
-                Map<Integer, Integer> map = new HashMap<>();
+            
                 int comp = target - (nums[i]+nums[j]+nums[k]);
                 if(comp )
             }
