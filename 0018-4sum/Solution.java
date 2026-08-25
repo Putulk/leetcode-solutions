@@ -20,7 +20,7 @@ class Solution {
                     inner.add(fourth);
                     j++;
                     k--;
-                    while(j<k && nums[j] =) j++;
+                    while(j<k && nums[j] == nums) j++;
                     while(j<k)
                 }
             }
