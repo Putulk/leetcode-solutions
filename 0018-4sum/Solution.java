@@ -1,7 +1,7 @@
 class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
         int n = nums.length;
-        List<List<Integer>> ans = n
+        List<List<Integer>> ans = new
         for(int i=0; i<n-1; i++){
             int j = i+1;
             int k = n-1;
