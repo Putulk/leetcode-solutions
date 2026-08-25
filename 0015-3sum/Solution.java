@@ -6,7 +6,7 @@ class Solution {
             Set<Integer> set = new HashSet<>();
             for(int j=i+1; j<n; j++){
                 int thirdElement = -(nums[i]+nums[j]);
-                if(set.contains(thirdElement){
+                if(set.contains(thirdElement)){
                     List<Integer> innerList = new ArrayList<>();
                     innerList.add(nums[i]);
                     innerList.add(nums[j]);
