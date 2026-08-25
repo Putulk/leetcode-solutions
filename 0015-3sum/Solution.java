@@ -12,9 +12,9 @@ class Solution {
             }
             while(j<k){
                 if(nums[i]+nums[j]+nums[k] < 0){
-                    j;
-                }else if(nums[i]+nums[j]+nums[k] < 0){
                     j++;
+                }else if(nums[i]+nums[j]+nums[k] < 0){
+                    j+;
                 }else{
                     inner.add(nums[i]);
                     inner.add(nums[j]);
