@@ -20,7 +20,7 @@ class Solution {
                     inner.add(fourth);
                     j++;
                     k--;
-                    whil
+                    while(j<k) 
                 }
             }
 
