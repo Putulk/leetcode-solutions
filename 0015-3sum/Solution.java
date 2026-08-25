@@ -9,7 +9,7 @@ class Solution {
                 int nums[k] = (nums[i]+nums[j]);
                 List<Integer> innerList = new ArrayList<>();
                 if(map.containsKey(nums[k])){
-                    innerList.add(n)
+                    innerList.add(num)
                 }
             }
         }
