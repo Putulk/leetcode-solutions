@@ -11,7 +11,7 @@ class Solution {
                     k--;
                 }else if(nums[i]+nums[j]+nums[k] < 0){
                     j++;
-                }
+                }e
             }
         }
         return new ArrayList<>(ans);
