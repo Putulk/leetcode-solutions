@@ -10,7 +10,7 @@ class Solution {
             }
             else if(cn2==0 && nums[i] != maj1){
                 cnt2=1;
-                ma
+                maj2=n
             }
         }
     }
