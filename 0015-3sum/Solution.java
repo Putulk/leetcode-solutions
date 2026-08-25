@@ -28,6 +28,6 @@ class Solution {
                 }
             }
         }
-        return new ArrayList<>ans;
+        return new ArrayList<>(ans);
     }
 }
