@@ -3,6 +3,6 @@ class Solution {
         Map<Integer, Integer> map = new HashMap<>();
         int n= nums.length;
         int x, y, z = 0;
-        
+    
     }
 }
