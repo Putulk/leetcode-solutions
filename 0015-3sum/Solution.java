@@ -9,7 +9,7 @@ class Solution {
             while(j<=k){
                 if(nums[i]+nums[j]+nums[k] > 0){
                     k--;
-                }else if(nums[i]+nums[j]+n)
+                }else if(nums[i]+nums[j]+nums[k])
             }
         }
         return new ArrayList<>(ans);
