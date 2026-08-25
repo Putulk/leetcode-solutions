@@ -13,7 +13,7 @@ class Solution {
                 }else if(sum > 0){
                     k--;
                 }else{
-                    List<Integer> inner =
+                    List<Integer> inner = new ArrayList<>()
 
                 }
             }
