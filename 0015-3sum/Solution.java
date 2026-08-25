@@ -12,7 +12,7 @@ class Solution {
                     innerList.add(nums[i]);
                     innerList.add(nums[j]);
                     innerList.add(nums[k]);
-                    l
+                    a
                 }
             }
         }
