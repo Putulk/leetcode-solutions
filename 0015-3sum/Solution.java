@@ -8,8 +8,8 @@ class Solution {
 
             while(j<=k){
                 if(nums[i]+nums[j]+nums[k] > 0){
-                    k
-                }
+                    k--;
+                }e
             }
         }
         return new ArrayList<>(ans);
