@@ -9,7 +9,7 @@ class Solution {
                 int left = j+1;
                 int right = n-1;
                 while(left < right){
-                int sum = 
+                int sum = nu
                 if(sum < 0){
                     j++;
                 }else if(sum > 0){
