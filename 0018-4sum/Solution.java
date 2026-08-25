@@ -19,7 +19,8 @@ class Solution {
                     inner.add(nums[k]);
                     inner.add(fourth);
                     j++;
-                    
+                    k--;
+                    whil
                 }
             }
 
