@@ -8,7 +8,7 @@ class Solution {
                 if (j > i+1 && arr[j] == arr[j - 1]) continue;
                 int left = j+1;
                 int right = n-1;
-                int fourth = target -(nums[i]+nums[j]+nums[k]);
+                
             }
             
             while(j < k){
