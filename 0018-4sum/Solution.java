@@ -7,7 +7,6 @@ class Solution {
             int k = n-1;
             int comp = -(nums[i]+nums[j]+nums[k]);
 
-
         }
     }
 }
