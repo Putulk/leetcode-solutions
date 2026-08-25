@@ -6,7 +6,7 @@ class Solution {
         for(int i=0; i<n; i++){
             int j = i+1;
             int k = n-1;
-            List<Integer> inner = new ArrayList<>();
+            
             // if(nums[i] > 0 && nums[i] == nums[i-1]){
             //     continue;
             // }
