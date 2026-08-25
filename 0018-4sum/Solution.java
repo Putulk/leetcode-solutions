@@ -10,8 +10,9 @@ class Solution {
                 if(sum < 0){
                     j++;
                 }else if(sum > 0){
-                    j
+                    k--;
                 }
+                
             }
 
         }
