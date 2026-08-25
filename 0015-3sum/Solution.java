@@ -13,6 +13,7 @@ class Solution {
                     innerList.add(nums[j]);
                     innerList.add(nums[k]);
                     ans.add(innerList);
+                    
                 }
             }
         }
