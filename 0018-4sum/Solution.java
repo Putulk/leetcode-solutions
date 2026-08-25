@@ -20,8 +20,8 @@ class Solution {
                     inner.add(fourth);
                     j++;
                     k--;
-                    while(j<k) j++;
-                    whil
+                    while(j<k ) j++;
+                    while(j<k)
                 }
             }
 
