@@ -13,8 +13,9 @@ class Solution {
                 maj2=nums[i];
             }
             else if(nums[i] == maj2){
-                cnt2++
+                cnt2++;
             }
+            e
         }
     }
 }
