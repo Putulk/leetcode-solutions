@@ -2,7 +2,7 @@ class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         int n= nums.length;
         Set<List<Integer>> ans = new HashSet<>();
-        for(int i)
+        for(int i=0;)
         return new ArrayList<>(ans);
     }
 }
