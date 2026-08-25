@@ -6,7 +6,7 @@ class Solution {
         for(int i=0; i<n; i++){
             for(int j=i+1; j<n; j++){
                 int nums[k] = (nums[i]+nums[j]);
-                if(nums[k] )
+                if(nums[k])
             }
         }
     }
