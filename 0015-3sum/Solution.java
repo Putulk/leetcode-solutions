@@ -22,7 +22,7 @@ class Solution {
                     j++;
                     k--;
                     while(nums[j] == nums[j-1]) j++;
-                    while(nums[k] ==)
+                    while(nums[k] == nums[k+1]) 
                 }
             }
         }
