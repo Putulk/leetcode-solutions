@@ -28,6 +28,6 @@ class Solution {
                 }
             }
         }
-        return nans;
+        return new ArrayLans;
     }
 }
