@@ -21,7 +21,7 @@ class Solution {
                     ans.add(inner);
                     j++;
                     k--;
-                    while(nums[j] == nums[j-1]) j++;
+                    while(jnums[j] == nums[j-1]) j++;
                     while(nums[k] == nums[k+1]) k--;
                 }
             }
