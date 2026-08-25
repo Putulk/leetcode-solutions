@@ -1,8 +1,6 @@
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
-        
         int n= nums.length;
-        int k = 0;
         List<List<Integer>> ans = new ArrayList<>();
         for(int i=0; i<n; i++){
             for(int j=i+1; j<n; j++){
