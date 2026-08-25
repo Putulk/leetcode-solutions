@@ -15,7 +15,7 @@ class Solution {
                     Collections.sort(innerList);
                     ans.add(innerList);
                 }
-                    set.add(nums[j]);
+                set.add(nums[j]);
             }
         }
         return ans;
