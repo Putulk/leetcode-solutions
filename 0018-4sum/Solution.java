@@ -7,7 +7,7 @@ class Solution {
             for(int j=i+1; j<n; j++){
                 if (j > i+1 && arr[j] == arr[j - 1]) continue;
                 int left = j+1;
-                int  = n-1;
+                int ri = n-1;
                 int fourth = target -(nums[i]+nums[j]+nums[k]);
             }
             
