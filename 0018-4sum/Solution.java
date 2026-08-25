@@ -23,7 +23,7 @@ class Solution {
                     ans.add(inner);
                     j++;
                     k--;
-                    while(j<k && nums[left] == nums[left-1]) j++;
+                    while(j<k && nums[left] == nums[left-1]) lef++;
                     while(j<k && nums[k] == nums[right-1]) k--;
                 }
             }
