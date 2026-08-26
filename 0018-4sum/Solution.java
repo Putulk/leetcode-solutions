@@ -20,7 +20,7 @@ class Solution {
                         inner.add(nums[i]);
                         inner.add(nums[j]);
                         inner.add(nums[left]);
-                        inner.add(right);
+                        inner.add();
                         ans.add(inner);
                         left++;
                         right--;
