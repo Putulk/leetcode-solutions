@@ -10,7 +10,7 @@ class Solution {
                 int left = j+1;
                 int right = n-1;
                 while(left < right){
-                    lo sum = nums[i]+nums[j]+nums[left]+nums[right];
+                    long sum = (long)(nums[i]+nums[j]+nums[left]+nums[right]);
                     if(sum < target){
                         left++;
                     }else if(sum > target){
