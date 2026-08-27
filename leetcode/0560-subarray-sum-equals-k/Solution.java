@@ -9,9 +9,7 @@ class Solution {
         for(int i=0; i<n; i++){
             sum += nums[i];
             int comp = sum-k;
-            if(sum == k){
-                cnt++;
-            }else if(map.containsKey(comp)){
+            if(map.containsKey(comp)){
                 cnt += map.get(comp);
             }else{
                 map.put(sum, map.getOrDefault(comp,0)+1);
