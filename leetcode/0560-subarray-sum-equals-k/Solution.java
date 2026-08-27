@@ -5,7 +5,7 @@ class Solution {
         Map<Integer, Integer> map = new HashMap<>();
         for(int i=0; i<n; i++){
             int sum = 0;
-            sum = nu
+            sum = nums[i];
             if()
         }
         return cnt;
