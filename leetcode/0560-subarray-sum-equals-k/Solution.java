@@ -8,8 +8,8 @@ class Solution {
             sum += nums[i];
             int freq = nums[i]-k;
             if(map.containsKey(freq)){
-                cnt += map.get(freq)
-            }
+                cnt += map.get(freq);
+            }e
         }
         return cnt;
     }
