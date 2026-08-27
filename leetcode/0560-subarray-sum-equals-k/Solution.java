@@ -11,9 +11,8 @@ class Solution {
             int comp = sum-k;
             if(map.containsKey(comp)){
                 cnt += map.get(comp);
-            }else{
+            }els
                 map.put(sum, map.getOrDefault(sum,0)+1);
-        
         }
         return cnt;
     }
