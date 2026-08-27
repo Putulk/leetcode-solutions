@@ -6,7 +6,7 @@ class Solution {
         Map<Integer, Integer> map = new HashMap<>();
         for(int i=0; i<n; i++){
             sum += nums[i];
-            int c = sum-k;
+            int comp = sum-k;
             if(sum == k){
                 cnt++;
             }else if(map.containsKey(freq)){
