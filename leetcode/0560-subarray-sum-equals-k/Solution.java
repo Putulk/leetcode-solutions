@@ -9,8 +9,8 @@ class Solution {
             int comp = sum-k;
             if(sum == k){
                 cnt++;
-            }else if(map.containsKey(freq)){
-                cnt += map.get(freq);
+            }else if(map.containsKey(comp)){
+                cnt += map.get(comp);
             }else{
                 map.put(sum, map.getOrDefault(freq,0)+1);
             }
