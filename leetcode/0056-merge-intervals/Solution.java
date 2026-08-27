@@ -1,5 +1,7 @@
 class Solution {
     public int[][] merge(int[][] intervals) {
-        for(int i=0; i<)
+        for(int i=0; i<i; i++){
+
+        }
     }
 }
