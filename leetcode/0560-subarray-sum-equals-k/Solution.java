@@ -9,7 +9,7 @@ class Solution {
             int freq = sum-k;
             if(sum == k){
                 cnt++;
-            }else if(map.containsKey(f)){
+            }else if(map.containsKey(freq)){
                 cnt += map.get(freq);
             }else{
                 map.put(sum, map.getOrDefault(freq,0)+1);
