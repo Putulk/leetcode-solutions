@@ -7,8 +7,8 @@ class Solution {
             int sum = 0;
             sum = nums[i];
             if(sum == k){
-                cnt++
-            }
+                cnt++;
+            }el
         }
         return cnt;
     }
