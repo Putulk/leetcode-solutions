@@ -8,7 +8,7 @@ class Solution {
             sum = nums[i];
             if(sum == k){
                 cnt++;
-            }else if(m)
+            }else if(map.containsKey())
         }
         return cnt;
     }
