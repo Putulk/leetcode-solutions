@@ -6,8 +6,9 @@ class Solution {
         Map<Integer, Integer> map = new HashMap<>();
         for(int i=0; i<n; i++){
             sum += nums[i];
+            
             if(map.containsKey(nums[i]-k)){
-                cnt += map.get
+                cnt += map.get()
             }
         }
         return cnt;
