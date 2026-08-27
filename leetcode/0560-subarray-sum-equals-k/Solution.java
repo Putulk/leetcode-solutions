@@ -12,7 +12,7 @@ class Solution {
             if(map.containsKey(comp)){
                 cnt += map.get(comp);
             }else{
-                map.put(sum, map.getOrDefault(comp,0)+1);
+                map.put(sum, map.getOrDefault(su,0)+1);
             }
         }
         return cnt;
