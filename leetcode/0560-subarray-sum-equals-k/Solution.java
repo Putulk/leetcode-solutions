@@ -8,7 +8,7 @@ class Solution {
             sum = nums[i];
             if(sum == k){
                 cnt++;
-            }el
+            }else if(m)
         }
         return cnt;
     }
