@@ -10,7 +10,7 @@ class Solution {
             if(map.containsKey(freq)){
                 cnt += map.get(freq);
             }else{
-                map.put(s)
+                map.put(sum, )
             }
         }
         return cnt;
