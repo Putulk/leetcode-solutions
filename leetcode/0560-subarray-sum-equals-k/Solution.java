@@ -9,7 +9,7 @@ class Solution {
             int freq = nums[i]-k;
             if(map.containsKey(freq)){
                 cnt += map.get(freq);
-            }e
+            }else{}
         }
         return cnt;
     }
