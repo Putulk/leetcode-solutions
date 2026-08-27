@@ -4,12 +4,12 @@ class Solution {
         int cnt = 0;
         Map<Integer, Integer> map = new HashMap<>();
         for(int i=0; i<n; i++){
-            int sum = 0;
-            sum = nums[i];
+            
+            sum += nums[i];
             if(sum == k){
                 cnt++;
             }else if(map.containsKey(k-nums[i])){
-                
+
             }
         }
         return cnt;
