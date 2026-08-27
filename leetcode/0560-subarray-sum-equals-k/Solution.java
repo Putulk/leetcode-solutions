@@ -13,7 +13,7 @@ class Solution {
                 cnt += map.get(comp);
             }else{
                 map.put(sum, map.getOrDefault(sum,0)+1);
-            }
+        
         }
         return cnt;
     }
