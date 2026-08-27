@@ -8,7 +8,7 @@ class Solution {
             sum += nums[i];
             int freq = nums[i]-k;
             if(map.containsKey(freq)){
-                cnt += map.get()
+                cnt += map.get(f)
             }
         }
         return cnt;
