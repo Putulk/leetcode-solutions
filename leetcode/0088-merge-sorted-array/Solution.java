@@ -8,6 +8,6 @@ class Solution {
             nums[i] = nums2[i-m];
         }
         Arrays.sort(nums);
-        for(int i=0; i<nums.lengt)
+        for(int i=0; i<nums.length; i+)
     }
 }
