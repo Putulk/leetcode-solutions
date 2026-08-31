@@ -9,7 +9,7 @@ class Solution {
 
             int j = i+1;
             while(j<n && intervals[j][0] <= end){
-                end = Math
+                end = Math.max(end, in)
             }
         }
     }
