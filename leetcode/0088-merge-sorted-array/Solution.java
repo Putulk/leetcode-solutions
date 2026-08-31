@@ -9,7 +9,7 @@ class Solution {
         }
         Arrays.sort(nums);
         for(int i=0; i<nums.length; i++){
-            nums1[i]=n
+            nums1[i]=nums[i];
         }
     }
 }
