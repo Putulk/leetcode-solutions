@@ -6,7 +6,7 @@ class Solution {
 
         for(int interval: intervals){
             int[] curr = interval[0];
-            if(curr[1] > intervals[i][0])
+            if(curr[1] > interval[i][0])
 
         }
         return list.toArray(new int[list.size()][]);
