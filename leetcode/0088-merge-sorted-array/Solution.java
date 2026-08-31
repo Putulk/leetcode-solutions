@@ -5,7 +5,7 @@ class Solution {
             nums[i] = nums1[i];
         }
         for(int i=m; i<nums.length; i++){
-            nums[i] = nums2[i];
+            nums[i] = nums2[i-];
         }
         Arrays.sort(nums);
 
