@@ -6,7 +6,9 @@ class Solution {
 
         for(int interval: intervals){
             int[] curr = interval[0];
-            if(curr[1] > interval[i][0])
+            if(curr[1] > interval[0]){
+                curr[1] = Math.max(curr[1], interval[1])
+            }
 
         }
         return list.toArray(new int[list.size()][]);
