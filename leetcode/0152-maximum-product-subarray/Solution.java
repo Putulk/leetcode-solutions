@@ -10,9 +10,7 @@ class Solution {
             }else{
                 prod = prod*nums[i];
             }
-            if(prod > max){
-                max = Math.max(max, prod);
-            }
+    
         }
         return max;
     }
