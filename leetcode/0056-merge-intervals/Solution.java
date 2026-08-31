@@ -14,7 +14,7 @@ class Solution {
                 j++;
             }
             list.add(Arrays.asList(start, end));
-            i=j;
+            i=j-1;
         }
         return list.toArray(new int[list.size()][]);
     }
