@@ -1,6 +1,6 @@
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
-        List<Integer> list = new ArrayList
+        List<Integer> list = new ArrayList<>();
         for(int i=0; i<m; i++){
             nums[i] = nums1[i];
         }
