@@ -16,6 +16,6 @@ class Solution {
             list.add(Arrays.asList(start, end));
             i=j;
         }
-        return new int[][]{list};
+        return list.toArray(new int[list.size()][]);
     }
 }
