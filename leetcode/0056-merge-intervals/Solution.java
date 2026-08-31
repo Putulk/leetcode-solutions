@@ -5,7 +5,7 @@ class Solution {
         List<int[]> list = new ArrayList<>();
     
         for(int i=1; i<n; i++){
-            int[] curr = intervals[0];
+            
             if(curr[1] > intervals[i][0]){
                 curr[1] = Math.max(curr[1], intervals[i][1]);
             }else{
