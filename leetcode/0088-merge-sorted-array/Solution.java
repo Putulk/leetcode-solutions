@@ -3,5 +3,6 @@ class Solution {
         for(int i=m; i<n; i++){
             nums2[i] = nums1[i];
         }
+        
     }
 }
