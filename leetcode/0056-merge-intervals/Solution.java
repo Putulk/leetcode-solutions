@@ -7,8 +7,8 @@ class Solution {
         for(int interval: intervals){
             int[] curr = interval[0];
             if(curr[1] > interval[0]){
-                curr[1] = Math.max(curr[1], interval[1])
-            }
+                curr[1] = Math.max(curr[1], interval[1]);
+            }e
 
         }
         return list.toArray(new int[list.size()][]);
