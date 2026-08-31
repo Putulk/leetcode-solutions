@@ -9,6 +9,7 @@ class Solution {
                 prod = 1;
             }else{
                 prod = prod*nums[i];
+                
             }
             
         }
