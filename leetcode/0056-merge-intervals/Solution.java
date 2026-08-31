@@ -12,7 +12,7 @@ class Solution {
                 list.add(curr);
                 curr = intervals[i];
             }
-            list.add(curr);
+    
 
         }
         return list.toArray(new int[list.size()][]);
