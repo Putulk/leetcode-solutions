@@ -9,7 +9,7 @@ class Solution {
                 curr[1] = Math.max(curr[1], interval[i][1]);
             }else{
                 list.add(curr);
-                curr = interval;
+                curr = intervals;
             }
 
         }
