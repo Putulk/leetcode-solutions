@@ -14,6 +14,7 @@ class Solution {
                 j++;
             }
             list.add(Arrays.asList(start, end));
+            i
         }
     }
 }
