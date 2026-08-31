@@ -9,7 +9,7 @@ class Solution {
             if(curr[1] > interval[0]){
                 curr[1] = Math.max(curr[1], interval[1]);
             }else{
-                list.
+                list.add()
             }
 
         }
