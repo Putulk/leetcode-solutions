@@ -13,7 +13,7 @@ class Solution {
                 end = Math.max(end, intervals[j][1]);
                 j++;
             }
-            list.add(Array(start, end));
+            list.add(n(start, end));
             i=j-1;
         }
         return list.toArray(new int[list.size()][]);
