@@ -7,6 +7,6 @@ class Solution {
         for(int i=m; i<nums.length; i++){
             nums[i] = nums2[i];
         }
-        Ar
+        Arrays.so
     }
 }
