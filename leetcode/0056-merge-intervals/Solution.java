@@ -3,7 +3,7 @@ class Solution {
         int n = intervals.length;
         Arrays.sort(intervals, (a,b) -> a[0]-b[0]);
         List<int[]> list = new ArrayList<>();
-        int[] curr = intervals[0]
+        int[] curr = intervals[0];
         for(int interval: intervals){
             curr[1] = interval[0];
             if(curr[1] > interval[0]){
