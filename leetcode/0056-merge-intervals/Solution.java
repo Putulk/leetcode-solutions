@@ -11,8 +11,9 @@ class Solution {
             }else{
                 list.add(curr);
                 curr = intervals[i];
-            
+            }
         }
+        
         return list.toArray(new int[list.size()][]);
     }
 }
