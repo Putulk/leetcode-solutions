@@ -3,6 +3,6 @@ class Solution {
         int n = nums.length;
         Arrays.sort(intervals, (a,b) -> a[0]-b[0]);
 
-        for( int)
+        for()
     }
 }
