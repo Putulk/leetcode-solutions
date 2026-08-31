@@ -5,7 +5,9 @@ class Solution {
         List<int[]> list = new ArrayList<>();
 
         for(int i=0; i<intervals.length; i++){
-            int[] curr = intervals[i][]
+            int[] curr = intervals[i];
+            if(curr[1] > inter)
+
         }
         return list.toArray(new int[list.size()][]);
     }
