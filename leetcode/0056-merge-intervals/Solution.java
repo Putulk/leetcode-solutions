@@ -11,6 +11,7 @@ class Solution {
             while(j<n && intervals[j][0] <= end){
                 end = Math.max(end, intervals[j][1]);
             }
+            
         }
     }
 }
