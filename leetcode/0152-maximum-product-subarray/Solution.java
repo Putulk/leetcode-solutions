@@ -7,7 +7,7 @@ class Solution {
             int prod = 1;
             prod = prod*nums[i];
             if(prod > max){
-                max = prod;
+                max = pr;
             }
         }
         return max;
