@@ -5,7 +5,7 @@ class Solution {
             nums[i] = nums1[i];
         }
         for(int i=m; i<nums.length; i++){
-            
+            if(n)
         }
     }
 }
