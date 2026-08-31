@@ -4,6 +4,6 @@ class Solution {
         for(int i=0; i<m; i++){
             nums[i] = nums1[i];
         }
-        for(int )
+        for(int i=0)
     }
 }
