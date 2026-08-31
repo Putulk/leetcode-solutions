@@ -4,7 +4,7 @@ class Solution {
         Arrays.sort(intervals, (a,b) -> a[0]-b[0]);
 
         for(int i=0; i<interval.length; i++){
-            int start = i
+            int start = interval
         }
     }
 }
