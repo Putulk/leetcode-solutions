@@ -4,7 +4,7 @@ class Solution {
         for(int i=0; i<m; i++){
             list.add(nums1[i]);
         }
-        for(int i=; i<nums.length; i++){
+        for(int i=0; i<n; i++){
             nums[i] = nums2[i-m];
         }
         Arrays.sort(nums);
