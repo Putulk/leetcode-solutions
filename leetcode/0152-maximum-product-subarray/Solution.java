@@ -9,7 +9,9 @@ class Solution {
                 prod = 1;
             }else{
                 prod = prod*nums[i];
-                
+                if(prod > max){
+                    max = Math.max(max, prod);
+                }
             }
             
         }
