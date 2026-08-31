@@ -4,10 +4,10 @@ class Solution {
         for(int i=0; i<m; i++){
             nums[i] = nums1[i];
         }
-        for(int i=m; i<nums.length; i++){
+        for(int i=m; i<nums.length-; i++){
             nums[i] = nums2[i];
         }
         Arrays.sort(nums);
-        
+
     }
 }
