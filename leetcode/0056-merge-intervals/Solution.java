@@ -11,7 +11,7 @@ class Solution {
             int j = i+1;
             while(j<n && intervals[j][0] <= end){
                 end = Math.max(end, intervals[j][1]);
-                
+                j++;
             }
             list.
         }
