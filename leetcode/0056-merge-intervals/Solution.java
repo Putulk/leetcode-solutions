@@ -4,7 +4,7 @@ class Solution {
         Arrays.sort(intervals, (a,b) -> a[0]-b[0]);
         List<int[]> list = new ArrayList<>();
 
-        for(int i=0; i<intervals.length; i++){
+        for(){
             int[] curr = intervals[i];
             if(curr[1] > intervals[i][0])
 
