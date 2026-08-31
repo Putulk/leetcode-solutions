@@ -4,7 +4,7 @@ class Solution {
         Arrays.sort(intervals, (a,b) -> a[0]-b[0]);
         List<int[]> list = new ArrayList<>();
     
-    
+        
         for(int i=1; i<n; i++){
             if(curr[1] > intervals[i][0]){
                 curr[1] = Math.max(curr[1], intervals[i][1]);
