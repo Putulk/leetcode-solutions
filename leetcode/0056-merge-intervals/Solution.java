@@ -10,7 +10,7 @@ class Solution {
                 curr[1] = Math.max(curr[1], interval[1]);
             }else{
                 list.add(curr);
-                curr
+                curr = in
             }
 
         }
