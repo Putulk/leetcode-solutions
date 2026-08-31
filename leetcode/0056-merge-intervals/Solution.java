@@ -16,6 +16,6 @@ class Solution {
             list.add(Arrays.asList(start, end));
             i=j;
         }
-        return n
+        return new int[][]
     }
 }
