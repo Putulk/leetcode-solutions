@@ -13,7 +13,7 @@ class Solution {
                 curr = intervals[i];
             }
         }
-        
+        list.add(curr);
         return list.toArray(new int[list.size()][]);
     }
 }
