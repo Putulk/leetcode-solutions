@@ -5,7 +5,7 @@ class Solution {
         List<int[]> list = new ArrayList<>();
 
         for(int interval: intervals){
-            int[] curr = interval[i];
+            int[] curr = interval[];
             if(curr[1] > intervals[i][0])
 
         }
