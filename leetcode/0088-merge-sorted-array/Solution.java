@@ -5,11 +5,11 @@ class Solution {
             list.add(nums1[i]);
         }
         for(int i=0; i<n; i++){
-            linums2[i-m];
+            list.add(nums2[i]);
         }
-        Arrays.sort(nums);
-        for(int i=0; i<nums.length; i++){
-            nums1[i]=nums[i];
+        Collections.sort(list);
+        for(int i=0; i<list.size(); i++){
+            nums1[i]=list.get(i);
         }
     }
 }
