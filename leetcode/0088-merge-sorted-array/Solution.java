@@ -8,5 +8,6 @@ class Solution {
             nums[i] = nums2[i];
         }
         Arrays.sort(nums);
+        
     }
 }
