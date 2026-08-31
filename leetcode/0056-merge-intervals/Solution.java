@@ -7,7 +7,9 @@ class Solution {
             int start = intervals[i][0];
             int end = intervals[i][1];
 
-            for(int j=i+1; j<n; j+)
+            for(int j=i+1; j<n; j++){
+                
+            }
         }
     }
 }
