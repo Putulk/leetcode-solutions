@@ -7,7 +7,7 @@ class Solution {
             int prod = 1;
             prod = prod*nums[i];
             if(nums[i] == 0){
-                ma = 1;
+                pr = 1;
             }
             if(prod > max){
                 max = Math.max(max, prod);
