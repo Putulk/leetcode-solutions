@@ -8,7 +8,9 @@ class Solution {
             int end = intervals[i][1];
 
             int j = i+1;
-            while(j<n && intervals[j][0] <= end)
+            while(j<n && intervals[j][0] <= end){
+                
+            }
         }
     }
 }
