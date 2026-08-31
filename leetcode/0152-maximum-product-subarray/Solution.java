@@ -3,6 +3,6 @@ class Solution {
         int n = nums.length;
         int max = 0;
 
-        for(i)
+        for(int i=0;)
     }
 }
