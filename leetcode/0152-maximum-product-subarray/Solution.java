@@ -8,7 +8,7 @@ class Solution {
             prod = prod*nums[i];
             if(prod > max){
                 max = Math.max(max, prod);
-            }
+            }e
         }
         return max;
     }
