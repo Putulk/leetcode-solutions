@@ -2,7 +2,7 @@ class Solution {
     public int[][] merge(int[][] intervals) {
         int n = intervals.length;
         Arrays.sort(intervals, (a,b) -> a[0]-b[0]);
-        List<List<Integer>> list = new ArrayList<>()
+        List<List<Integer>> list = new ArrayList<>();
 
         for(int i=0; i<interval.length; i++){
             int start = intervals[i][0];
@@ -12,7 +12,7 @@ class Solution {
             while(j<n && intervals[j][0] <= end){
                 end = Math.max(end, intervals[j][1]);
             }
-
+    
         }
     }
 }
