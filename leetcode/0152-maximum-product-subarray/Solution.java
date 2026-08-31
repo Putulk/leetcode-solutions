@@ -4,11 +4,12 @@ class Solution {
         int max = 0;
 
         for(int i=0; i<n; i++){
-            int prod *= nums[i];
+            int prod = 0;
+            prod = 
             if(prod > max){
                 max = prod;
             }
         }
-        
+        return max;
     }
 }
