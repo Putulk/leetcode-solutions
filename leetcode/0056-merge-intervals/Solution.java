@@ -6,6 +6,7 @@ class Solution {
 
         for(int i=0; i<intervals.length; i++){
             
+        }
         return list.toArray(new int[list.size()][]);
     }
 }
