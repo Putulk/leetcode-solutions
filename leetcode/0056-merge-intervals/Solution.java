@@ -6,6 +6,7 @@ class Solution {
         for(int i=0; i<interval.length; i++){
             int start = intervals[i][0];
             int end = intervals[i][1];
+            
         }
     }
 }
