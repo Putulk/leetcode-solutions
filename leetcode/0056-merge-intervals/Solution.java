@@ -4,8 +4,8 @@ class Solution {
         Arrays.sort(intervals, (a,b) -> a[0]-b[0]);
         List<int[]> list = new ArrayList<>();
 
-        for(int interval: ){
-            int[] curr = intervals[i];
+        for(int interval: intervals){
+            int[] curr = interval[i];
             if(curr[1] > intervals[i][0])
 
         }
