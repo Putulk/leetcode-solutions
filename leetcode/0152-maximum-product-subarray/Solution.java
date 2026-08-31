@@ -3,7 +3,6 @@ class Solution {
         int n = nums.length;
         int max = Integer.MIN_VALUE;
 
-
         for(int i=0; i<n; i++){
             int prod = 1;
             if(nums[i] == 0){
