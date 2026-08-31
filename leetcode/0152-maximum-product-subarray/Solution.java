@@ -5,7 +5,7 @@ class Solution {
 
         for(int i=0; i<n; i++){
             int prod = 0;
-            prod = 
+            prod = prod*nums[i];
             if(prod > max){
                 max = prod;
             }
