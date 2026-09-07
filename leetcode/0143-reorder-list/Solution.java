@@ -10,7 +10,7 @@
  */
 class Solution {
     public void reorderList(ListNode head) {
-        
+        i
     }
 
     public int size(ListNode head){
@@ -20,6 +20,6 @@ class Solution {
             count++;
             current = current.next;
         }
-        retu
+        return count;
     }
 }
