@@ -20,6 +20,6 @@ class Solution {
             count++;
             current = current.next;
         }
-        
+        retu
     }
 }
