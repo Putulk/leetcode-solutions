@@ -10,6 +10,6 @@
  */
 class Solution {
     public void reorderList(ListNode head) {
-        if(nod)
+        i
     }
 }
