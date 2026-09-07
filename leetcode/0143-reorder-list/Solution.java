@@ -13,5 +13,9 @@ class Solution {
         
     }
 
-    publ
+    public int size(ListNode head){
+        int count = 0;
+        ListNode current = head;
+        while(current != null){}
+    }
 }
