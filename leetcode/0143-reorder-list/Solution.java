@@ -16,6 +16,8 @@ class Solution {
     public int size(ListNode head){
         int count = 0;
         ListNode current = head;
-        while(current != null){}
+        while(current != null){
+            c
+        }
     }
 }
