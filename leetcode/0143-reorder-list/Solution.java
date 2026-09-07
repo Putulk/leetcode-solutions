@@ -17,7 +17,7 @@ class Solution {
         int count = 0;
         ListNode current = head;
         while(current != null){
-            c
+            cou
         }
     }
 }
