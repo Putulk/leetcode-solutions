@@ -10,6 +10,6 @@
  */
 class Solution {
     public void reorderList(ListNode head) {
-        fo
+        for(int i=)
     }
 }
