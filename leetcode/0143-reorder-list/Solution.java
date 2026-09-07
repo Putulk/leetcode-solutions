@@ -18,7 +18,8 @@ class Solution {
         ListNode current = head;
         while(current != null){
             count++;
-            current = current.n
+            current = current.next;
         }
+        
     }
 }
