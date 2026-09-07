@@ -11,8 +11,9 @@
 class Solution {
     public void reorderList(ListNode head) {
         int size = size(head);
-
-        fo
+        if(head == null){
+            head 
+        }
     }
 
     public int size(ListNode head){
