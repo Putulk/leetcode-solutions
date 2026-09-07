@@ -10,7 +10,7 @@
  */
 class Solution {
     public void reorderList(ListNode head) {
-        i
+        int size = 
     }
 
     public int size(ListNode head){
