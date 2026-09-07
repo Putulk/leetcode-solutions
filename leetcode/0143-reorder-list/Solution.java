@@ -12,4 +12,6 @@ class Solution {
     public void reorderList(ListNode head) {
         
     }
+
+    publ
 }
