@@ -10,7 +10,7 @@ class Solution {
                 front = 1;
                 end = 1;
             }else{
-                front = f*nums[i];
+                front = front*nums[i];
                 
             }
             
