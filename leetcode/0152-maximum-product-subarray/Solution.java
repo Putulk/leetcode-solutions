@@ -12,7 +12,7 @@ class Solution {
             }
             if(end == 0){
                 end = 1;
-            }else{
+            }
                 front = front*nums[i];
                 
             }
