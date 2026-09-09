@@ -11,7 +11,7 @@ class Solution {
                 end = 1;
             }else{
                 prod = prod*nums[i];
-                if(fron > max){
+                if(front > max ){
                     max = Math.max(max, prod);
                 }
             }
