@@ -15,7 +15,7 @@ class Solution {
             }
             front = front*nums[i];
                 
-            }
+        
             
         }
         return max;
