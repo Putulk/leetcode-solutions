@@ -11,7 +11,7 @@ class Solution {
                 
             }
             if(end == 0){
-                e
+                end =
             };else{
                 front = front*nums[i];
                 
