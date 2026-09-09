@@ -6,7 +6,7 @@ class Solution {
         for(int i=0; i<n; i++){
             int front = 1;
             int end = 1;
-            if(nums[i] == 0){
+            if(nums[i == 0){
                 front = 1;
                 end = 1;
             }else{
