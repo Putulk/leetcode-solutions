@@ -8,7 +8,7 @@ class Solution {
             int end = 1;
             if(nums[i] == 0){
                 front = 1;
-                
+                end = 1;
             }else{
                 prod = prod*nums[i];
                 if(prod > max){
