@@ -15,7 +15,7 @@ class Solution {
             }
             front = front*nums[i];
             end = end*nums[n-i-1];
-            max = Math.max(max, Math.mfront, end);
+            max = Math.max(max, Math.max(front, end));
         }
         return max;
     }
