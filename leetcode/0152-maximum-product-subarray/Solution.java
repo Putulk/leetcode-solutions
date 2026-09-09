@@ -10,7 +10,9 @@ class Solution {
                 front = 1;
                 
             }
-            if(end == 0);else{
+            if(end == 0){
+                e
+            };else{
                 front = front*nums[i];
                 
             }
