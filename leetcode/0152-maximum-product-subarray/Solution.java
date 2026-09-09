@@ -14,7 +14,7 @@ class Solution {
                 end = 1;
             }
             front = front*nums[i];
-            end = end*nums[n-i]
+            end = end*nums[n-i-1];
         }
         return max;
     }
