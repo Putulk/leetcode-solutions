@@ -10,10 +10,8 @@ class Solution {
                 front = 1;
                 end = 1;
             }else{
-                prod = prod*nums[i];
-                if(front > max){
-                    max = Math.max(max, prod);
-                }
+                f = prod*nums[i];
+                
             }
             
         }
