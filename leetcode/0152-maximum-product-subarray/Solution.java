@@ -13,7 +13,7 @@ class Solution {
             if(end == 0){
                 end = 1;
             }
-                front = front*nums[i];
+            front = front*nums[i];
                 
             }
             
