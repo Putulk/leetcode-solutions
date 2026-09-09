@@ -5,9 +5,9 @@ class Solution {
 
         for(int i=0; i<n; i++){
             int front = 1;
-            int end =
+            int end = 1;
             if(nums[i] == 0){
-                prod = 1;
+                f = 1;
             }else{
                 prod = prod*nums[i];
                 if(prod > max){
