@@ -4,7 +4,7 @@ class Solution {
         int max = Integer.MIN_VALUE;
 
         for(int i=0; i<n; i++){
-            int pro = 1;
+            int f = 1;
             if(nums[i] == 0){
                 prod = 1;
             }else{
