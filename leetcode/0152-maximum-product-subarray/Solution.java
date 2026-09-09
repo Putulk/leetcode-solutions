@@ -2,9 +2,9 @@ class Solution {
     public int maxProduct(int[] nums) {
         int n = nums.length;
         int max = Integer.MIN_VALUE;
+        
 
         for(int i=0; i<n; i++){
-            
             if(front == 0){
                 front = 1;
                 
