@@ -16,6 +16,6 @@ class Solution {
                 right = mid-1;
             }
         }
-        return Arrays.asList{}
+        return Arrays.asList(a)
     }
 }
