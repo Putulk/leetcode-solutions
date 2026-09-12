@@ -4,7 +4,8 @@ class Solution {
         int left = 0;
         int right = n-1;
         fot(int i=0; i<n; i++){
-            int mid = left+(right-left)/
+            int mid = left+(right-left)/2;
+            
         }
     }
 }
