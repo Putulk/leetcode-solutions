@@ -15,5 +15,6 @@ class Solution {
                 left = mid+1;
             }
         }
+        
     }
 }
