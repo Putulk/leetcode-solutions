@@ -4,7 +4,7 @@ class Solution {
         int left = 0;
         int right = n-1;
         fot(int i=0; i<n; i++){
-            int mis
+            int mid =
         }
     }
 }
