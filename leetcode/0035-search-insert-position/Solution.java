@@ -5,7 +5,11 @@ class Solution {
         int  rigth = n-1;
         
         while(left <= right){
-            int mid = left +(r)
+            int mid = left +(right-left)/2;
+
+            if(nums[mid] == target){
+                ans = target;
+            }else if(nums[mid] < target)
         }
     }
 }
