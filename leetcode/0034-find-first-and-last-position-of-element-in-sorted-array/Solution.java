@@ -3,14 +3,17 @@ class Solution {
         int n = nums.length;
         int left = 0;
         int right = n-1;
-        
+        List<Integer> ans = new ArrayList<>();
 
         while(left <= right){
             int mid = left +(right-left)/2;
 
             if(nums[mid] == target){
-
+                ans.add(mid);
+            }else if(nums[mid] < target){
+                left = mid+1;
             }
+            el
         }
     }
 }
