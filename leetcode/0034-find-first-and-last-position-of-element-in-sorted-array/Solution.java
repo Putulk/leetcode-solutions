@@ -17,6 +17,6 @@ class Solution {
             }
         }
         int[] arr = Ints.toArray(list);
-        return Arrays.asList(anas);
+        return Arrays.asList(a);
     }
 }
