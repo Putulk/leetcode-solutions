@@ -17,7 +17,7 @@ class Solution {
                 right = mid-1;
             }
         }
-        int[] ans = list.stream().m
+        int[] ans = list.stream().mapToIn
         return ans;
     }
 }
