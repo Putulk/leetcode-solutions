@@ -21,7 +21,6 @@ class Solution {
                 right = mid-1;
             }
         }
-        int[] arr = ans.stream().mapToInt(i -> i).toArray();
-        return arr;
+        
     }
 }
