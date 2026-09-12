@@ -8,7 +8,7 @@ class Solution {
 
             if(nums[mid] == target){
                 return mid;
-            }else if(target > mid){
+            }else if(target > nmid){
                 left = mid+1;
             }else{
                 right = mid-1;
