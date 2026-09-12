@@ -11,7 +11,7 @@ class Solution {
             int mid = left +(right-left)/2;
 
             if(nums[mid] == target){
-                first = 
+                first = mid;
                 left = mid+1;
             }else if(nums[mid] < target){
                 left = mid+1;
