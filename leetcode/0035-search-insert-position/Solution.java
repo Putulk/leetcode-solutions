@@ -8,7 +8,7 @@ class Solution {
             int mid = left +(right-left)/2;
 
             if(nums[mid] == target){
-                ans = target;
+                ans = mid;
             }else if(nums[mid] < target){
                 
             }
