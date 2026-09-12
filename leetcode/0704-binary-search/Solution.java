@@ -6,7 +6,7 @@ class Solution {
         for(int i=0; i<n; i++){
             int mid = left+(right-left)/2;
 
-            if(nmid == target){
+            if(nums[mid] == target){
                 return ;
             }else if(target > mid){
                 left = mid+1;
