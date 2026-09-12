@@ -8,7 +8,7 @@ class Solution {
 
             if(mid == target){
                 return mid;
-            }else if(mid )
+            }else if(mid > tag)
         }
     }
 }
