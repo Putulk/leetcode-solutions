@@ -12,7 +12,9 @@ class Solution {
                 ans.add(mid);
             }else if(nums[mid] < target){
                 left = mid+1;
-            }el
+            }else{
+                r
+            }
         }
     }
 }
