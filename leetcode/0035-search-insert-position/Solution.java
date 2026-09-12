@@ -3,7 +3,7 @@ class Solution {
         int n = nums.length;
         int left = 0;
         int  rigth = n-1;
-        int ans = n
+        int ans = n;
         
         while(left <= right){
             int mid = left +(right-left)/2;
