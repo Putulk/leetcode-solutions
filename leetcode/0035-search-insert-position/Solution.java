@@ -1,5 +1,5 @@
 class Solution {
     public int searchInsert(int[] nums, int target) {
-        int n = n
+        int n = nums.length;
     }
 }
