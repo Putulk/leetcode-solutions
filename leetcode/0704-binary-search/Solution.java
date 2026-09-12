@@ -8,7 +8,7 @@ class Solution {
 
             if(mid == target){
                 return mid;
-            }
+            }e
         }
     }
 }
