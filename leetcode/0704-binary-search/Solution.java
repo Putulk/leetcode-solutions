@@ -5,7 +5,8 @@ class Solution {
         int right = n-1;
         fot(int i=0; i<n; i++){
             int mid = left+(right-left)/2;
-            
+
+            if()
         }
     }
 }
