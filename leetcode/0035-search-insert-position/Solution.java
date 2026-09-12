@@ -4,6 +4,8 @@ class Solution {
         int left = 0;
         int  rigth = n-1;
         
-        while(left = right){}
+        while(left <= right){
+
+        }
     }
 }
