@@ -17,7 +17,7 @@ class Solution {
                 right = mid-1;
             }
         }
-        l
+        left = 
         while(left <= right){
             int mid = left +(right-left)/2;
 
