@@ -13,7 +13,7 @@ class Solution {
                 if(nums[mid+1] == target){
                     ans[1] = mid+1;
                 }else{
-                    ans[1] 
+                    ans[1] = mi
                 }
             }else if(nums[mid] < target){
                 left = mid+1;
