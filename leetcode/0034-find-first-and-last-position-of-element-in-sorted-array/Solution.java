@@ -17,7 +17,7 @@ class Solution {
                 right = mid-1;
             }
         }
-        int[] ans = list.s
+        int[] ans = list.stream()
         return ans;
     }
 }
