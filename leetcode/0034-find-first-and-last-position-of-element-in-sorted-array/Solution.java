@@ -17,7 +17,7 @@ class Solution {
                 right = mid-1;
             }
         }
-        int[] ans = list.stream().mapToInt()
+        int[] ans = list.stream().mapToInt(i_)
         return ans;
     }
 }
