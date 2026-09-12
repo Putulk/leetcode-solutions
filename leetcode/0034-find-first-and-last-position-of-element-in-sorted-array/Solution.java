@@ -33,6 +33,6 @@ class Solution {
                 right = mid-1;
             }
         }
-        return n;
+        return new int[];
     }
 }
