@@ -16,7 +16,7 @@ class Solution {
                 right = mid-1;
             }
         }
-        int[] arr = Ints.toArray(list);
-        return Arrays.asList(aar);
+        int[] arr = ans.stream().mapToInt(Integer::intValue).toArray();
+        return arr;
     }
 }
