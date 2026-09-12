@@ -15,6 +15,7 @@ class Solution {
             }else{
                 right = mid-1;
             }
+
         }
     }
 }
