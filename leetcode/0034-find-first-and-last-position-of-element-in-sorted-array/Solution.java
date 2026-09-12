@@ -5,7 +5,6 @@ class Solution {
         int last = -1;
         int left = 0;
         int right = n-1;
-        List<Integer> list = new ArrayList<>();
 
         while(left <= right){
             int mid = left +(right-left)/2;
@@ -33,6 +32,6 @@ class Solution {
                 right = mid-1;
             }
         }
-        return new int[]{first,};
+        return new int[]{first, last};
     }
 }
