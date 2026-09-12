@@ -4,6 +4,6 @@ class Solution {
         int left = 0;
         int  rigth = n-1;
         
-        wh
+        while(left = )
     }
 }
