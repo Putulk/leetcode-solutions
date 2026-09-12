@@ -16,5 +16,6 @@ class Solution {
                 right = mid-1;
             }
         }
+        
     }
 }
