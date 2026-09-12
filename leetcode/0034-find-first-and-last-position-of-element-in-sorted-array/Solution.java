@@ -4,6 +4,6 @@ class Solution {
         int left = 0;
         int right = n-1;
 
-        while(left <= )
+        while(left <= right){}
     }
 }
