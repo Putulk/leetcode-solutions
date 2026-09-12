@@ -3,12 +3,17 @@ class Solution {
         int n=nums.length;
         int left = 0;
         int right = n-1;
-        fot(int i=0; i<n; i++){
+        for(int i=0; i<n; i++){
             int mid = left+(right-left)/2;
 
             if(mid == target){
                 return mid;
-            }else if(mid > ta)
+            }else if(target > mid){
+                left = mid+1;
+            }else{
+                right = mid-1;
+            }
         }
+        return -1;
     }
 }
