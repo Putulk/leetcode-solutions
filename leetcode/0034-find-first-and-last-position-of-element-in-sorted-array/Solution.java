@@ -3,7 +3,7 @@ class Solution {
         int n = nums.length;
         int left = 0;
         int right = n-1;
-        List<Integer> arr
+        List<Integer> list
 
         while(left <= right){
             int mid = left +(right-left)/2;
