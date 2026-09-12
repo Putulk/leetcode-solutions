@@ -12,7 +12,9 @@ class Solution {
                 ans[0] = mid;
                 if(nums[mid+1] == target){
                     ans[1] = mid+1;
-                }else{}
+                }else{
+                    an
+                }
             }else if(nums[mid] < target){
                 left = mid+1;
             }else{
