@@ -6,7 +6,7 @@ class Solution {
         fot(int i=0; i<n; i++){
             int mid = left+(right-left)/2;
 
-            if(mid == t)
+            if(mid == targ)
         }
     }
 }
