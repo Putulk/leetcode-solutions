@@ -16,6 +16,6 @@ class Solution {
                 right = mid-1;
             }
         }
-        ret
+        return A
     }
 }
