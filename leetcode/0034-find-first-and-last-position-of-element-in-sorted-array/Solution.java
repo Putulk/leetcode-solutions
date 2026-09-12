@@ -25,7 +25,7 @@ class Solution {
             int mid = left +(right-left)/2;
 
             if(nums[mid] == target){
-                list.add(mid);
+                la
                 right = mid-1;
             }else if(nums[mid] < target){
                 left = mid+1;
