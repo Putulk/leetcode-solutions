@@ -33,7 +33,7 @@ class Solution {
                 right = mid-1;
             }
         }
-        int[] ans = list.stream().mapToInt(i->i).toArray();
+        
         return ans;
     }
 }
