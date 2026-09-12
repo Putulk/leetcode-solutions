@@ -5,7 +5,7 @@ class Solution {
         int right = n-1;
 
         while(left <= right){
-            int m
+            int mid = left 
         }
     }
 }
