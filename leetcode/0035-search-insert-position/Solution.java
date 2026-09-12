@@ -9,7 +9,7 @@ class Solution {
 
             if(nums[mid] == target){
                 ans = target;
-            }else if(nums[mid] < target)
+            }else if(nums[mid] < target){}
         }
     }
 }
