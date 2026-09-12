@@ -17,7 +17,7 @@ class Solution {
                 right = mid-1;
             }
         }
-        int[] ans = 
+        int[] ans = li
         return ans;
     }
 }
