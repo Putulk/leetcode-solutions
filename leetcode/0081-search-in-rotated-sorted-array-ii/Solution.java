@@ -14,7 +14,7 @@ class Solution {
                     right = mid-1;
                 }
             }else{
-                if(nums[right] >= target && t){
+                if(nums[right] >= target && teg){
 
                 }
             }
