@@ -5,7 +5,7 @@ class Solution {
         for(int i=0; i<n; i++){
             int left = 0;
             int right = n-1;
-            int mid = left+(right-le)
+            int mid = left+(right-left)/2;
         }
     }
 }
