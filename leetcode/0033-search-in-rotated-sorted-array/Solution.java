@@ -16,7 +16,7 @@ class Solution {
                     left = mid+1;
                 }
             }else{
-                if
+                if(nums[r])
             }
         }
         return ans;
