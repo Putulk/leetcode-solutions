@@ -16,7 +16,7 @@ class Solution {
                     left = mid+1;
                 }
             }else{
-                if(nums[right] < target && nums[target] < nu)
+                if(nums[right] < target && nums[target] < nums[high]){}
             }
         }
         return ans;
