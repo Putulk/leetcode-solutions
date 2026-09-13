@@ -16,7 +16,7 @@ class Solution {
                     left = mid+1;
                 }
             }else{
-                if(nums[right] < targe)
+                if(nums[right] < target &)
             }
         }
         return ans;
