@@ -14,7 +14,7 @@ class Solution {
                     right = mid-1;
                 }
             }else{
-                if(nums[right] >= target && target < nums[mi]){
+                if(nums[right] >= target && target < nums[mid]){
 
                 }
             }
