@@ -7,7 +7,7 @@ class Solution {
             int right = n-1;
             int mid = left+(right-left)/2;
 
-            i
+            if(n)
         }
     }
 }
