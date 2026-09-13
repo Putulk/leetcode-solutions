@@ -16,7 +16,7 @@ class Solution {
                     left = mid+1;
                 }
             }else{
-                if(nums[right] < )
+                if(nums[right] < targte)
             }
         }
         return ans;
