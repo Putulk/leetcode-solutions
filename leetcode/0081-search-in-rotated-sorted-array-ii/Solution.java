@@ -9,7 +9,7 @@ class Solution {
                 return true;
             }else if(nums[left] <= nums[mid]){
                 if(nums[left] <= target && nums[mid] > target){
-                    left = mi
+                    left = mid+1;
                 }
             }
         }
