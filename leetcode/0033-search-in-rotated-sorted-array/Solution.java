@@ -12,7 +12,7 @@ class Solution {
             }else if(nums[left] <= nums[mid]){
                 if(nums[left] <= target && target <= nums[mid]){
                     right = mid-1;
-                }els
+                }e
             }else{
                 right = mid-1;
             }
