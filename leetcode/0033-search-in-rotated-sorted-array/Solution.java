@@ -4,7 +4,7 @@ class Solution {
 
             int left = 0;
             int right = n-1;
-            while
+            while(lef)
             int mid = left+(right-left)/2;
 
             if(nums[mid] )
