@@ -13,7 +13,9 @@ class Solution {
                 }else{
                     right = mid-1;
                 }
-            }els
+            }else{
+                if
+            }
         }
     }
 }
