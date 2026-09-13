@@ -11,7 +11,7 @@ class Solution {
                 ans = mid;
             }else if(nums[left] <= nums[mid]){
                 if(nums[left] <= target && target <= nums[mid]){
-                    ri
+                    right = m
                 }
             }else{
                 right = mid-1;
