@@ -8,7 +8,7 @@ class Solution {
             if(nums[mid] == target){
                 return true;
             }else if(nums[left] <= nums[mid] && nums[mid] < target){
-                if(nu)
+                if(nums[])
             }
         }
     }
