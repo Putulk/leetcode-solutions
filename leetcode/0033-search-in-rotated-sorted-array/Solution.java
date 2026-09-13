@@ -9,7 +9,7 @@ class Solution {
             int ans = -1;
             if(nums[mid] == target){
                 ans = mid;
-            }el
+            }else if(num)
         }
     }
 }
