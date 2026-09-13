@@ -6,7 +6,7 @@ class Solution {
             int right = n-1;
             while(left <= right){
             int mid = left+(right-left)/2;
-            int ans = -1;
+           
             if(nums[mid] == target){
                 ans = mid;
             }else if(nums[mid] > target){
