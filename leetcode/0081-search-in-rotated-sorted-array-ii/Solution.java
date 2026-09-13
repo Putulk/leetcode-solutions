@@ -10,7 +10,9 @@ class Solution {
             }else if(nums[left] <= nums[mid]){
                 if(nums[left] <= target && nums[mid] > target){
                     left = mid+1;
-                }else
+                }else{
+                    ri
+                }
             }
         }
     }
