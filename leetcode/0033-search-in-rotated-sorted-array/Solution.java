@@ -10,7 +10,7 @@ class Solution {
             if(nums[mid] == target){
                 ans = mid;
             }else if(nums[left] <= nums[mid]){
-                if(nums[left] <= target )
+                if(nums[left] <= target && t)
             }else{
                 right = mid-1;
             }
