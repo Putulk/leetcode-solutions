@@ -15,7 +15,7 @@ class Solution {
                     left = mid+1;
                 }
             }else{
-                if(nums[right] < target && nums[target] < nums[high]){
+                if(nums[right] < target && nums[target] < nums[r]){
                     left = mid+1;
                 }else{
                     right = mid-1;
