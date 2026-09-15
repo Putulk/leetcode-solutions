@@ -12,8 +12,8 @@ class Solution {
             }
 
             if(nums[low] <= nums[m]){
-                ans = Math.min(ans, nums[lo]);
-                l 
+                ans = Math.min(ans, nums[l]);
+                l =
             }
         }
         return nums[l];
