@@ -3,7 +3,7 @@ class Solution {
         int l = 0;
         int r = nums.length-1;
         int ans = Integer.MAX_VALUE;
-        while(l < r){
+        while(l <= r){
             int m = l+(r-l)/2;
 
             if(nums[l] <= nums[r]){
