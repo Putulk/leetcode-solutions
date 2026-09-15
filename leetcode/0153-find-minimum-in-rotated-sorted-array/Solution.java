@@ -8,7 +8,7 @@ class Solution {
 
             if(nums[l] <= nums[r]){
                 ans = Math.min(ans, nums[l]);
-                
+                b
             }
         }
         return nums[l];
