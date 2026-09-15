@@ -15,7 +15,7 @@ class Solution {
                 ans = Math.min(ans, nums[l]);
                 l = m+1;
             }else{
-                ans = Mat
+                ans = Math.min(ans)
             }
         }
         return nums[l];
