@@ -8,7 +8,9 @@ class Solution {
 
             if(nums[m] > nums[r]){
                 l = m+1;
-            }else{}
+            }else{
+                r = m-
+            }
         }
     }
 }
