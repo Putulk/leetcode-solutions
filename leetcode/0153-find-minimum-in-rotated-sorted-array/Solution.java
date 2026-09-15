@@ -6,7 +6,7 @@ class Solution {
         while(l <= r){
             int m = l+(r-l)/2;
 
-            n
+            nums[mi]
         }
     }
 }
