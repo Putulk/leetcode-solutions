@@ -7,7 +7,7 @@ class Solution {
             int m = l+(r-l)/2;
 
             if(nums[m] > nums[r]){
-                l 
+                l = m+1;
             }
         }
     }
