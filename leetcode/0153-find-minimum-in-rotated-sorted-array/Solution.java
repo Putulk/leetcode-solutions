@@ -8,7 +8,7 @@ class Solution {
 
             if(nums[m] == min){
                 min = nums[min];
-            }else if(nums[])
+            }else if(nums[mi])
         }
     }
 }
