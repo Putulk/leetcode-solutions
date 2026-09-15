@@ -7,7 +7,7 @@ class Solution {
             int m = l+(r-l)/2;
 
             if(nums[l] <= high){
-                ans = Math.min(ans, nums[])
+                ans = Math.min(ans, nums[l]);
             }
         }
         return nums[l];
