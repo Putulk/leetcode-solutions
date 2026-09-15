@@ -7,7 +7,7 @@ class Solution {
             int m = l+(r-l)/2;
 
             if(nums[m] <= min){
-                if(nums[l] < nums[])
+                if(nums[l] < nums[m])
             }
         }
     }
