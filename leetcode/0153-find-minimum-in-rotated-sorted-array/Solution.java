@@ -6,8 +6,9 @@ class Solution {
         while(l < r){
             int m = l+(r-l)/2;
 
-            if(nums[l] <= nu){
+            if(nums[l] <= nums[r]){
                 ans = Math.min(ans, nums[l]);
+                
             }
         }
         return nums[l];
