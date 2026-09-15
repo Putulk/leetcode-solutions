@@ -4,7 +4,7 @@ class Solution {
         int r = n-1;
 
         while(l <= r){
-            in
+            int m = l
         }
     }
 }
