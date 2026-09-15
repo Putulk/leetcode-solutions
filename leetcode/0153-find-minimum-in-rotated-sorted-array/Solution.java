@@ -5,7 +5,9 @@ class Solution {
         while(l < r){
             int m = l+(r-l)/2;
 
-            if(nums[l] <= high){}
+            if(nums[l] <= high){
+                
+            }
         }
         return nums[l];
     }
