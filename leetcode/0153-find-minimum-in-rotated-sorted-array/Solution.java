@@ -7,7 +7,7 @@ class Solution {
             int m = l+(r-l)/2;
 
             if(nums[l] <= high){
-                ans = Ma
+                ans = Math.mi
             }
         }
         return nums[l];
