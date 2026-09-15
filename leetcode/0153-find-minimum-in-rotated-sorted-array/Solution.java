@@ -2,7 +2,7 @@ class Solution {
     public int findMin(int[] nums) {
         int l = 0;
         int r = nums.length-1;
-        int a
+        int ans 
         while(l < r){
             int m = l+(r-l)/2;
 
