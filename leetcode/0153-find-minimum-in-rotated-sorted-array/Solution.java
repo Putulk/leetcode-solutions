@@ -3,6 +3,6 @@ class Solution {
         int l = 0;
         int r = n-1;
 
-        whi
+        while(l <= r)
     }
 }
