@@ -6,10 +6,7 @@ class Solution {
         while(l <= r){
             int m = l+(r-l)/2;
 
-            if(nums[m] == min){
-                min = nums[min];
-            }else if(nums[m] > min && nums[m] >= nums[l]){
-            }
+            n
         }
     }
 }
