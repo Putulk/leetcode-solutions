@@ -9,7 +9,7 @@ class Solution {
             if(nums[m] > nums[r]){
                 l = m+1;
             }else{
-                r = m-
+                r = m-1;
             }
         }
     }
