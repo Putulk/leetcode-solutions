@@ -6,7 +6,9 @@ class Solution {
         while(l <= r){
             int m = l+(r-l)/2;
 
-            if(nums[m] > nums[r])
+            if(nums[m] > nums[r]){
+                
+            }
         }
     }
 }
