@@ -10,10 +10,6 @@ class Solution {
 
             if(nums[mid] != nums[left] && nums[mid] != nums[right]){
                 ans = nums[mid];
-            }else if(nums[mid] < nums[left]){
-                left = mid+1; 
-            }else{
-                right = mid -1;
             }
         }
         return ans;
