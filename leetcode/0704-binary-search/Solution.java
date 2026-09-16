@@ -9,7 +9,7 @@ class Solution {
             if(nums[mid] == target){
                 return mid;
                 right = mid-1;
-            }else {
+            }else i{
                 left = mid+1;
             }else{
 
