@@ -12,8 +12,9 @@ class Solution {
             }else if(nums[mid] < nums[left]){
                 left = mid+1; 
             }else{
-                right = mid 
+                right = mid -1;
             }
         }
+        
     }
 }
