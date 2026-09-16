@@ -7,7 +7,9 @@ class Solution {
         while(left <= right){
             int mid = left+(right-left)/2;
 
-            if(nums[mid] != nums[left] && nums[mid] != nums[rig])
+            if(nums[mid] != nums[left] && nums[mid] != nums[right]){
+                r
+            }
         }
     }
 }
