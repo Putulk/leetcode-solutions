@@ -8,10 +8,9 @@ class Solution {
         while(left <= right){
             int mid = left+(right-left)/2;
 
-            if(nums[mid] != nums[mid-1] && nums[mid] != nums[mi]){
+            if(nums[mid] != nums[mid-1] && nums[mid] != nums[mid+1]){
                 ans = nums[mid];
-                left++;
-                right--;
+                
             }
         }
         return ans;
