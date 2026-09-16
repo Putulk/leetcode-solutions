@@ -2,7 +2,7 @@ class Solution {
     public int singleNonDuplicate(int[] nums) {
         int n = nums.length;
         int left = 1;
-        int right = n-1;
+        int right = n-;
         int ans = 0;
 
         while(left <= right){
