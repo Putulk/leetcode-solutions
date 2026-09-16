@@ -9,7 +9,7 @@ class Solution {
 
             if(nums[mid] != nums[left] && nums[mid] != nums[right]){
                 return nums[mid];
-            }
+            }els
         }
     }
 }
