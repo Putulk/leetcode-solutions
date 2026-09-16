@@ -8,7 +8,7 @@ class Solution {
             int mid = left+(right-left)/2;
 
             if(nums[mid] != nums[left] && nums[mid] != nums[right]){
-                r
+                return 
             }
         }
     }
