@@ -10,7 +10,7 @@ class Solution {
 
             if(nums[mid] != nums[left] && nums[mid] != nums[right]){
                 ans = nums[mid];
-                l
+                le
             }
         }
         return ans;
