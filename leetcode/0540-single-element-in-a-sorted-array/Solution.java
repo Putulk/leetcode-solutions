@@ -10,8 +10,8 @@ class Solution {
             if(nums[mid] != nums[left] && nums[mid] != nums[right]){
                 return nums[mid];
             }else if(nums[mid] < nums[left]){
-                left = mid+1 
-            }
+                left = mid+1; 
+            }e
         }
     }
 }
