@@ -11,7 +11,7 @@ class Solution {
             if(nums[mid] != nums[left] && nums[mid] != nums[right]){
                 ans = nums[mid];
                 left++;
-                rig
+                right--;
             }
         }
         return ans;
