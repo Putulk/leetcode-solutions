@@ -11,8 +11,8 @@ class Solution {
             if(nums[mid] != nums[mid-1] && nums[mid] != nums[mid+1]){
                 ans = nums[mid];
             }else if(nums[mid] == nums[mid+1] || nums[mid] == nums[mid-1]){
-                left = mi
-            }
+                left = mid+1;
+            }e
         }
         return ans;
     }
