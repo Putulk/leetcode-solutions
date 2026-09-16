@@ -7,7 +7,7 @@ class Solution {
         while(left <= right){
             int mid = left+(right-left)/2;
 
-            if(nums[mid] != nums[left] && nums)
+            if(nums[mid] != nums[left] && nu)
         }
     }
 }
