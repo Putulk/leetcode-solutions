@@ -11,7 +11,7 @@ class Solution {
                 return nums[mid];
             }else if(nums[mid] < nums[left]){
                 left = mid+1; 
-            }e
+            }else{}
         }
     }
 }
