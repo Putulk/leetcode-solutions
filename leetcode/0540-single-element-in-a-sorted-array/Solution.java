@@ -9,7 +9,7 @@ class Solution {
             int mid = left+(right-left)/2;
 
             if(nums[mid] != nums[left] && nums[mid] != nums[right]){
-                return nums[mid];
+                an nums[mid];
             }else if(nums[mid] < nums[left]){
                 left = mid+1; 
             }else{
