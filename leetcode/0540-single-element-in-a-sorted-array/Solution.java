@@ -8,7 +8,7 @@ class Solution {
         while(left <= right){
             int mid = left+(right-left)/2;
 
-            if(nums[mid] != nums[mid-1] && nums[mid] != nums[righ]){
+            if(nums[mid] != nums[mid-1] && nums[mid] != nums[mi]){
                 ans = nums[mid];
                 left++;
                 right--;
