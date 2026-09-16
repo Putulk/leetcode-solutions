@@ -12,7 +12,7 @@ class Solution {
             }else if(nums[mid] < nums[left]){
                 left = mid+1; 
             }else{
-                rig
+                right = md
             }
         }
     }
