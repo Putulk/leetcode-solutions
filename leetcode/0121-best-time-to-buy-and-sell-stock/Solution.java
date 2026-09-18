@@ -3,7 +3,7 @@ class Solution {
         int n = prices.length;
         int profit = 0;
 
-        for(int i=0; i<n; i++){
+        for(int i=1; i<n; i++){
             int sellPrice = prices[i]-profit;
 
             if(sellPrice > profit){
