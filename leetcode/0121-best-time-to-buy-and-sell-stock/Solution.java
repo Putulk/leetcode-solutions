@@ -9,7 +9,7 @@ class Solution {
             if(sell < profit){
                 currPrice = prices[i];
             }
-            profit =
+            profit = selk
         }
         return profit;
     }
