@@ -6,7 +6,7 @@ class Solution {
             if(set.contains(nums[i])){
                 return true;
             }
-            set.put(nu)
+            set.put(nums[i]);
         }
     }
 }
