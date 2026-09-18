@@ -1,7 +1,7 @@
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         int n = nums.length;
-        Map<Integer, Integer> map = nre
+        Map<Integer, Integer> map = new HashM
         for(int i=0; i<n; i++){
             int comp = target-nums[i];
         }
