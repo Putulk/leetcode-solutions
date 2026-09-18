@@ -6,10 +6,10 @@ class Solution {
 
         for(int i=1; i<n; i++){
             int sell = prices[i] - currPrice;
-            if(sell  profit){
-                profit = sell;
+            if(sell < profit){
                 currPrice = prices[i];
             }
+            p
         }
         return profit;
     }
