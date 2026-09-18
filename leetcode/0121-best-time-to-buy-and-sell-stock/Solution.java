@@ -4,12 +4,12 @@ class Solution {
         int profit = 0;
 
         for(int i=0; i<n; i++){
-            int sellPrice = nums[i]-profit;
+            int sellPrice = prices[i]-profit;
 
             if(sellPrice > profit){
-                profit = selPrice;
+                profit = sellPrice;
             }
         }
-        return
+        return profit;
     }
 }
