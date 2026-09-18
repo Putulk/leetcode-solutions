@@ -7,7 +7,7 @@ class Solution {
             if(map.containsKey(comp)){
                 return new int[]{i, map.get(i)};
             }
-            map.put(num, comp);
+            map.put(nums[i], comp);
         }
         return new int[]{};
     }
