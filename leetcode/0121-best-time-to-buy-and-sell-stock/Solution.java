@@ -5,6 +5,8 @@ class Solution {
 
         for(int i=0; i<n; i++){
             int sellPrice = nums[i]-profit;
+
+            if
         }
     }
 }
