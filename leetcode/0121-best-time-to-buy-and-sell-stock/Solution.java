@@ -4,7 +4,7 @@ class Solution {
         int profit = 0;
 
         for(int i=0; i<n; i++){
-            int sellPrice = 
+            int sellPrice = n
         }
     }
 }
