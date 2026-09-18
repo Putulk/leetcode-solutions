@@ -5,12 +5,11 @@ class Solution {
         int currPrice = prices[0];
 
         for(int i=1; i<n; i++){
-            int sell = prices[i] - buy;
+            int sell = prices[i] - curr;
             if(sell > profit){
                 profit = sell;
-                
+                currPrice = prices[i];
             }
-            buy = prices[i];
         }
         return profit;
     }
