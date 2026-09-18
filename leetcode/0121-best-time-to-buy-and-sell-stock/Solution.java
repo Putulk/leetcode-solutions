@@ -8,6 +8,7 @@ class Solution {
             int sell = prices[i] - buy;
             if(sell > profit){
                 profit = sell;
+                
             }
             buy = prices[i];
         }
