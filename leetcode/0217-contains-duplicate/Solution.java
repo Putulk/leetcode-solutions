@@ -1,7 +1,7 @@
 class Solution {
     public boolean containsDuplicate(int[] nums) {
         int n = nums.length;
-        Ar
+        Arrays
         for(int i=0; i<n; i++){
 
         }
