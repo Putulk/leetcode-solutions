@@ -4,7 +4,7 @@ class Solution {
         Set<Intger> set = new HashSet<>();
         for(int i=0; i<n; i++){
             if(set.contains(nums[i])){
-                return t
+                return true
             }
         }
     }
