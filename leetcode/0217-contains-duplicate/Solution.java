@@ -3,7 +3,7 @@ class Solution {
         int n = nums.length;
         Set<Intger> set = new HashSet<>();
         for(int i=0; i<n; i++){
-            if
+            if(set.con)
         }
     }
 }
