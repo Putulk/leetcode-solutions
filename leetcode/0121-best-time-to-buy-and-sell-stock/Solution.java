@@ -9,7 +9,7 @@ class Solution {
             if(prices[i] < currPrice){
                 currPrice = prices[i];
             }
-            profit = Math.max(prof)
+            profit = Math.max(profit, s)
         }
         return profit;
     }
