@@ -9,6 +9,6 @@ class Solution {
             }
             map.put(nums[i], comp);
         }
-        return new int[]{}
+        return new int[]{};
     }
 }
