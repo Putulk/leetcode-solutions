@@ -7,7 +7,7 @@ class Solution {
             int sellPrice = nums[i]-profit;
 
             if(sellPrice > profit){
-                profit 
+                profit = se
             }
         }
     }
