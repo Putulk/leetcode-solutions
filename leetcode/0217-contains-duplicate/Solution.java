@@ -1,5 +1,7 @@
 class Solution {
     public boolean containsDuplicate(int[] nums) {
-        int n = nums.le
+        int n = nums.length;
+
+        for(int )
     }
 }
