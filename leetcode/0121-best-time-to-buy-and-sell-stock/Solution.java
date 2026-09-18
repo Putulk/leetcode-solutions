@@ -9,7 +9,7 @@ class Solution {
             if(prices[i] < currPrice){
                 currPrice = prices[i];
             }
-            profit = 
+            profit = Math.ma
         }
         return profit;
     }
