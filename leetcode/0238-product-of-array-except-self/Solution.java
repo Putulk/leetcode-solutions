@@ -1,6 +1,5 @@
 class Solution {
     public int[] productExceptSelf(int[] nums) {
-      
         int[] temp = new int[nums.length];
         int left = 1; 
         int right = 1;
