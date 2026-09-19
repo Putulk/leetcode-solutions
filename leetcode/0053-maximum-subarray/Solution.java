@@ -4,7 +4,7 @@ class Solution {
         int maxSum = Integer.MIN_VALUE;
 
         for(int i=0; i<n; i++){
-            int maxSum = sum+nums[i];
+            imaxSum = sum+nums[i];
 
             if(maxSum < sum){
                 maxSum = sum;
