@@ -3,6 +3,8 @@ class Solution {
         int n = nums.length;
         int maxSum = Integer.MIN_VALUE;
 
-        for(int i=0; i<n; i++){}
+        for(int i=0; i<n; i++){
+            i
+        }
     }
 }
