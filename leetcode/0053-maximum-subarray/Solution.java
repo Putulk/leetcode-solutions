@@ -7,7 +7,7 @@ class Solution {
             int sum = 0;
             for(int j=i; j<n; j++){
                 sum += nums[j];
-                maxSum = Math.max(m)
+                maxSum = Math.max(maSum,)
             }
         }
         return maxSum;
