@@ -6,15 +6,7 @@ class Solution {
         start = -1; end = -1;
 
         for(int i=0; i<n; i++){
-            if(sum == 0){
-                start = i;
-            }
-            sum = sum + nums[i];
-            if(sum > maxSum){
-                maxSum = sum;
-                start = 
-
-            }
+            
         }
         return maxSum;
     }
