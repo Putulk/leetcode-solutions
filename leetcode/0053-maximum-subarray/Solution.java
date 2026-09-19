@@ -7,7 +7,7 @@ class Solution {
 
         for(int i=0; i<n; i++){
             if(sum == 0){
-                start = i
+                start = i;
             }
             sum = sum + nums[i];
             if(sum > maxSum){
