@@ -6,7 +6,9 @@ class Solution {
         start = -1; end = -1;
 
         for(int i=0; i<n; i++){
-            if(maxSum < )
+            if(maxSum < 0){
+                ma
+            }
         }
         return maxSum;
     }
