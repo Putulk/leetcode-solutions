@@ -5,7 +5,9 @@ class Solution {
 
         for(int i=0; i<n; i++){
             int sum = 0;
-            for(int j=i; j<n; )
+            for(int j=i; j<n; j++){
+                s
+            }
         }
         return maxSum;
     }
