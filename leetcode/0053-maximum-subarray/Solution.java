@@ -10,6 +10,6 @@ class Solution {
                 maxSum = sum;
             }
         }
-        return m
+        return maxSum;
     }
 }
