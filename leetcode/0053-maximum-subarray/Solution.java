@@ -7,7 +7,8 @@ class Solution {
         for(int i=0; i<n; i++){
             sum = sum + nums[i];
             if(sum > maxSum){
-                maxSum = u
+                maxSum = sum;
+                
             }
         }
         return maxSum;
