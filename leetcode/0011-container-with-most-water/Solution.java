@@ -3,6 +3,6 @@ class Solution {
         int left =0;
         int right = n-1;
 
-        for(i)
+        for(int i =0)
     }
 }
