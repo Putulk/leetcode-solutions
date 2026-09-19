@@ -2,6 +2,7 @@ class Solution {
     public int maxSubArray(int[] nums) {
         int n = nums.length;
         int maxSum = nums[0];
+        
 
         for(int i=0; i<n; i++){
             if(maxSum < 0){
@@ -10,6 +11,6 @@ class Solution {
             maxSum += nums[i];
             res = Math.max(res, maxSum)
         }
-        return r;
+        return res;
     }
 }
