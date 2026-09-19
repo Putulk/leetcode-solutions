@@ -7,7 +7,7 @@ class Solution {
             int sum = sum+nums[i];
 
             if(maxSum < sum){
-                ma
+                maxSum = sum;
             }
         }
     }
