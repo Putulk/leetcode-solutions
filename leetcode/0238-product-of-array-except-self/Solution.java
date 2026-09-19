@@ -13,7 +13,6 @@ class Solution {
             temp[i] *= right;
             right *= nums[i];
         }
-        System.out.println(Arrays.toString(temp)); 
         return temp;
     }
 }
