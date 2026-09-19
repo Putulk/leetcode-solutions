@@ -10,7 +10,7 @@ class Solution {
                 maxSum = 0;
             }
             maxSum += nums[i];
-            r
+            re
         }
         return maxSum;
     }
