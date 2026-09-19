@@ -8,7 +8,6 @@ class Solution {
             temp[i] = left;
             left *= nums[i];
         }
-        System.out.println(Arrays.toString(temp)); 
         for(int i=nums.length-1; i>=0; i--){
             temp[i] *= right;
             right *= nums[i];
