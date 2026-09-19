@@ -10,7 +10,7 @@ class Solution {
                 maxSum = 0;
             }
             maxSum += nums[i];
-            res = Math
+            res = Math.max(r)
         }
         return maxSum;
     }
