@@ -6,7 +6,7 @@ class Solution {
         for(int i=0; i<n; i++){
             int sum = sum+nums[i];
 
-            if(m)
+            if(maxSum >)
         }
     }
 }
