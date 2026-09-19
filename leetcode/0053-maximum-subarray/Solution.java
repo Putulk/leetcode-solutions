@@ -7,7 +7,7 @@ class Solution {
 
         for(int i=0; i<n; i++){
             if(maxSum < 0){
-                ma
+                maxSum =
             }
         }
         return maxSum;
