@@ -6,7 +6,7 @@ class Solution {
         int right = 1;
 
         for(int i=0; i<nums.length; i++){
-            temp[i] *= left;
+            temp[i] = left;
             left *= nums[i];
         }
         System.out.println(Arrays.toString(temp)); 
