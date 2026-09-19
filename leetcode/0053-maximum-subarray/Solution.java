@@ -7,8 +7,9 @@ class Solution {
 
         for(int i=0; i<n; i++){
             if(maxSum < 0){
-                maxSum =
+                maxSum = 0;
             }
+            
         }
         return maxSum;
     }
