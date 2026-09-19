@@ -9,7 +9,7 @@ class Solution {
             if(maxSum < 0){
                 maxSum = 0;
             }
-            maxSum +=
+            maxSum += n
         }
         return maxSum;
     }
