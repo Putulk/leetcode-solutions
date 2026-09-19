@@ -10,6 +10,6 @@ class Solution {
             maxSum += nums[i];
             res = Math.max(res, maxSum)
         }
-        return maxSum;
+        return r;
     }
 }
