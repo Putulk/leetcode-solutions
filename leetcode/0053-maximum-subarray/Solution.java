@@ -3,12 +3,13 @@ class Solution {
         int n = nums.length;
         int sum = 0;
         int maxSum = Integer.MIN_VALUE;
-        start = -1; end = -
+        start = -1; end = -1;
 
         for(int i=0; i<n; i++){
             sum = sum + nums[i];
             if(sum > maxSum){
                 maxSum = sum;
+                
 
             }
         }
