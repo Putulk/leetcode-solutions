@@ -9,7 +9,7 @@ class Solution {
             sum = sum + nums[i];
             if(sum > maxSum){
                 maxSum = sum;
-                
+                stra
 
             }
         }
