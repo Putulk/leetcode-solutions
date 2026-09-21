@@ -3,11 +3,11 @@ class Solution {
         int m = matrix.length;
         int n = matrix[0].length;
         int firstRowZero = false;
-        int firstColZero = fal;
+        int firstColZero = false;
 
         for(int i=0; i<m; i++){
             if(matrix[i][0] == 0){
-                firstColZero = 
+                firstColZero = t
             }
         }
     }
