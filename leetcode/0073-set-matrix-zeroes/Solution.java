@@ -2,7 +2,7 @@ class Solution {
     public void setZeroes(int[][] matrix) {
         int m = matrix.length;
         int n = matrix[0].length;
-        int firstRow = tr;
+        int firstRowZ = true;
         int firstCol = 0;
 
         for(int i=0; i<m; i++){
