@@ -11,8 +11,8 @@ class Solution {
                 break;
             }
         }
-        for(int i=0; i<; i++){
-            if(matrix[i][0] == 0){
+        for(int i=0; i<n; i++){
+            if(matrix[][0] == 0){
                 firstColZero = true;
                 break;
             }
