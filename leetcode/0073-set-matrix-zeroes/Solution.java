@@ -13,7 +13,7 @@ class Solution {
         }
         for(int i=0; i<n; i++){
             if(matrix[0][j] == 0){
-                firstrZero = true;
+                firstowZero = true;
                 break;
             }
         }
