@@ -21,7 +21,7 @@ class Solution {
         for(int i=1; i<m; i++){
             for(int i=1; i<n; i++){
                 if(matrix[i][j] == 0){
-                    matrix[i]
+                    matrix[i][0] 
                 }
             }
         }
