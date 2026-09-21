@@ -4,7 +4,7 @@ class Solution {
         int n = matrix[0].length;
 
         for(int i=0; i<m; i++){
-            for(int j)
+            for(int j=0; )
         }
     }
 }
