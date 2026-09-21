@@ -3,6 +3,6 @@ class Solution {
         int m = matrix.length;
         int n = matrix[0].length;
 
-        for(i)
+        for(int i=0; i)
     }
 }
