@@ -40,7 +40,12 @@ class Solution {
                 matrix[0][i] = 0;
             }
         }
-        
+
+        if(firstRoZero){
+            for(int i=0; i<n; i++){
+                matrix[0][i] = 0;
+            }
+        }
         
 
     }
