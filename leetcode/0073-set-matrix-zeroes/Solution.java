@@ -42,8 +42,8 @@ class Solution {
         }
 
         if(firstColZero){
-            for(int i=0; i<; i++){
-                matrix[0][i] = 0;
+            for(int i=0; i<m; i++){
+                matrix[][i] = 0;
             }
         }
         
