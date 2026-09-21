@@ -37,7 +37,7 @@ class Solution {
 
         if(firstRowZero){
             for(int i=0; i<n; i++){
-                matr
+                matrix[0]
             }
         }
         
