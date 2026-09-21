@@ -29,7 +29,9 @@ class Solution {
 
         for(int i=1; i<m; i++){
             for(int j=1; j<n; j++){
-                if(matrix[i][0] == 0 || matrix[0][j] == 0)
+                if(matrix[i][0] == 0 || matrix[0][j] == 0){
+                    m
+                }
             }
         }
         
