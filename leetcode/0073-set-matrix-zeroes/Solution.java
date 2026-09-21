@@ -19,7 +19,7 @@ class Solution {
         }
 
         for(int i=0; i<m; i++){
-            for()
+            for(int i=0; )
         }
     }
 }
