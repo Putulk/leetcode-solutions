@@ -11,6 +11,11 @@ class Solution {
                 break;
             }
         }
-        
+        for(int i=0; i<; i++){
+            if(matrix[i][0] == 0){
+                firstColZero = true;
+                break;
+            }
+        }
     }
 }
