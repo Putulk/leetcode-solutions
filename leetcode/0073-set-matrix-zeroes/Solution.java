@@ -2,7 +2,7 @@ class Solution {
     public void setZeroes(int[][] matrix) {
         int m = matrix.length;
         int n = matrix[0].length;
-        int firstRowZero = false;
+        b firstRowZero = false;
         int firstColZero = false;
 
         for(int i=0; i<m; i++){
@@ -26,6 +26,6 @@ class Solution {
                 }
             }
         }
-        
+
     }
 }
