@@ -35,7 +35,11 @@ class Solution {
             }
         }
 
-        fir
+        if(firstRowZero){
+            for(int i=0; i<n; i++){
+                matr
+            }
+        }
         
 
     }
