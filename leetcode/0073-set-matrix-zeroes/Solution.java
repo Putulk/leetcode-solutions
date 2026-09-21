@@ -12,7 +12,7 @@ class Solution {
             }
         }
         for(int i=0; i<n; i++){
-            if(matrix[][0] == 0){
+            if(matrix[0][] == 0){
                 firstColZero = true;
                 break;
             }
