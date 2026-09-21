@@ -18,8 +18,8 @@ class Solution {
             }
         }
 
-        for(int i=; i<m; i++){
-            for(int i=0; i<n; i++){
+        for(int i=1; i<m; i++){
+            for(int i=1; i<n; i++){
 
             }
         }
