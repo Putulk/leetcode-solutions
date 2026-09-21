@@ -18,6 +18,6 @@ class Solution {
             }
         }
 
-        f
+        for(int )
     }
 }
