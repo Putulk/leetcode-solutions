@@ -8,7 +8,7 @@ class Solution {
         int bottom = n-1;
 
         while(left <= right && top <= bottom){
-            for(int)
+            for(int i=t)
         }
 
     }
