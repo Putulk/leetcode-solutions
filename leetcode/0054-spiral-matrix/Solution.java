@@ -25,7 +25,7 @@ class Solution {
                 bottom--;
             }
             
-            if(le)
+            if(left <= )
             for(int i=bottom; i>=top; i--){
                 res.add(matrix[i][left]);
             }
