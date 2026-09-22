@@ -24,7 +24,7 @@ class Solution {
             }
             bottom--;
             
-            for(int i=b)
+            for(int i=bottom;)
         }
 
     }
