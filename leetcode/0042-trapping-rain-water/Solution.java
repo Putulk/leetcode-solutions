@@ -5,6 +5,7 @@ class Solution {
 
         while(left <= right){
             int width = right-left;
+
             
         }
     }
