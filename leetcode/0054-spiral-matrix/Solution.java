@@ -25,7 +25,7 @@ class Solution {
             bottom--;
             
             for(int i=bottom; i>=top; i++){
-                res.add(natrix[i][le])
+                res.add(natrix[i][lef])
             }
         }
 
