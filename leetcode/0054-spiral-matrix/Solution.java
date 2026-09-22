@@ -5,7 +5,8 @@ class Solution {
 
         int top = 0, left = 0;
         int right = m-1;
-        int bottom = -1;
+        int bottom = n-1;
+        
 
     }
 }
