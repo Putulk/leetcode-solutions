@@ -2,6 +2,6 @@ class Solution {
     public int removeDuplicates(int[] nums) {
         int uniqueCnt = 1;
 
-        for(int i=1; i<num)
+        for(int i=1; i<nums.length; )
     }
 }
