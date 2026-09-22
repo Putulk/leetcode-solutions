@@ -30,6 +30,7 @@ class Solution {
                 res.add(matrix[i][left]);
             }
             left++;
+            
         }
         return res;
 
