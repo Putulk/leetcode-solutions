@@ -3,6 +3,7 @@ class Solution {
         int n = matrix.length;
         int m = matrix[0].length;
 
-        int top 
+        int top = 0, ;
+
     }
 }
