@@ -8,6 +8,6 @@ class Solution {
                 uniqueIndex++;
             }
         }
-        retunrn u
+        return uni
     }
 }
