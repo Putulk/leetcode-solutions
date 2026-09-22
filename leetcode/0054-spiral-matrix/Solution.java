@@ -5,7 +5,7 @@ class Solution {
 
         int top = 0, left = 0;
         int right = n-1;
-        int b
+        int bottom 
 
     }
 }
