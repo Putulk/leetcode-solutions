@@ -9,7 +9,7 @@ class Solution {
 
         while(left <= right && top <= bottom){
             for(int i=left; i<right; i++){
-                
+                t
             }
         }
 
