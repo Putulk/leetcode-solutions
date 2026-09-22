@@ -23,6 +23,7 @@ class Solution {
                 res.add(matrix[bottom][i]);
             }
             bottom--;
+            
         }
 
     }
