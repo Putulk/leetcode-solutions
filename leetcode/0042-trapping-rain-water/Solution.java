@@ -4,7 +4,8 @@ class Solution {
         int right = height.length-1;
 
         while(left <= right){
-            int width = right-l
+            int width = right-left;
+            
         }
     }
 }
