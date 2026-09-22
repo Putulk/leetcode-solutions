@@ -18,14 +18,16 @@ class Solution {
                 res.add(matrix[i][right]);
             }
             right--;
-
-            for(int i=right; i>=left; i--){
-                res.add(matrix[bottom][i]);
+            if(top <= bottom){
+                for(int i=right; i>=left; i--){
+                    res.add(matrix[bottom][i]);
+                }
+                bottom--;
             }
-            bottom--;
             
-            for(int i=bottom; i>=top; i++){
-                res.add(atrix[i][left]);
+            
+            for(int i=bottom; i>=top; i--){
+                res.add(matrix[i][left]);
             }
             left++;
         }
