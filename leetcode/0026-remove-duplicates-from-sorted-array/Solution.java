@@ -1,5 +1,5 @@
 class Solution {
     public int removeDuplicates(int[] nums) {
-        int uniqueCn
+        int uniqueCnt = 1
     }
 }
