@@ -20,8 +20,9 @@ class Solution {
             right--;
 
             for(int i=bottom; i>=top; i--){
-                res.add(matrix[bottom][])
+                res.add(matrix[bottom][i]);
             }
+            
         }
 
     }
