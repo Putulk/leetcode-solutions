@@ -26,10 +26,10 @@ class Solution {
             }
             
             if(left <= right){
-            for(int i=bottom; i>=top; i--){
-                res.add(matrix[i][left]);
-            }
-            left++;
+                for(int i=bottom; i>=top; i--){
+                    res.add(matrix[i][left]);
+                }
+                left++;
             }
         }
         return res;
