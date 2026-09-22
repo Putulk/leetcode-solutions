@@ -20,7 +20,7 @@ class Solution {
             right--;
 
             for(int i=bottom; i>=top; i--){
-                res.add(matri)
+                res.add(matrix[b])
             }
         }
 
