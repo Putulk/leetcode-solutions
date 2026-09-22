@@ -3,6 +3,6 @@ class Solution {
         int left = 0;
         int right = height.length-1;
 
-        while(left <)
+        while(left <= rig)
     }
 }
