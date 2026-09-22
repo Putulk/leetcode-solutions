@@ -22,7 +22,7 @@ class Solution {
             for(int i=right; i>=left; i--){
                 res.add(matrix[bottom][i]);
             }
-            bottom
+            bottom-
         }
 
     }
