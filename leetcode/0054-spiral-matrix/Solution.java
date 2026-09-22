@@ -1,5 +1,6 @@
 class Solution {
     public List<Integer> spiralOrder(int[][] matrix) {
-        int
+        int n = matrix.length;
+        int m = matrix[0].
     }
 }
