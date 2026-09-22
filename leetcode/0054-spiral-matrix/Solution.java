@@ -9,7 +9,7 @@ class Solution {
         List<Integer> res = new ArrayList<>();
 
         while(left <= right && top <= bottom){
-            for(int i=left; i<right; i++){
+            for(int i=left; i<=right; i++){
                 res.add(matrix[top][i]);
             }
             top++;
