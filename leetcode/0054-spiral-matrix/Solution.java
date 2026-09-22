@@ -6,11 +6,15 @@ class Solution {
         int top = 0, left = 0;
         int right = m-1;
         int bottom = n-1;
+        List<Integer> res = new ArrayList<>();
 
         while(left <= right && top <= bottom){
             for(int i=left; i<right; i++){
-                to
+                res.add(matrix[top][i]);
             }
+            top++;
+
+            for(int i=top; i<bottom; )
         }
 
     }
