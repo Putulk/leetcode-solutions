@@ -7,7 +7,9 @@ class Solution {
         int right = m-1;
         int bottom = n-1;
 
-        while(left <= right && top <= bottom){}
+        while(left <= right && top <= bottom){
+            f
+        }
 
     }
 }
