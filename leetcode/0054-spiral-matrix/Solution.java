@@ -14,7 +14,9 @@ class Solution {
             }
             top++;
 
-            for(int i=top; i<bottom; )
+            for(int i=top; i<bottom; i++){
+                
+            }
         }
 
     }
