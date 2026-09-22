@@ -8,6 +8,6 @@ class Solution {
                 uniqueIndex++;
             }
         }
-        return uniqueIn
+        return uniqueIndex;
     }
 }
