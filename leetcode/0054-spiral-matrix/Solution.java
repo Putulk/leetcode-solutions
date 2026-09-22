@@ -19,7 +19,7 @@ class Solution {
             }
             right--;
 
-            fo
+            for(i)
         }
 
     }
