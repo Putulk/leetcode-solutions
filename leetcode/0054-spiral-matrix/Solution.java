@@ -4,8 +4,8 @@ class Solution {
         int m = matrix[0].length;
 
         int top = 0, left = 0;
-        int right = -1;
-        int bottom = m-1;
+        int right = m-1;
+        int bottom = -1;
 
     }
 }
