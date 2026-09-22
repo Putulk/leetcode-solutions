@@ -15,7 +15,7 @@ class Solution {
             top++;
 
             for(int i=top; i<bottom; i++){
-                res.add(matrix[i][])
+                res.add(matrix[i][right]);
             }
         }
 
