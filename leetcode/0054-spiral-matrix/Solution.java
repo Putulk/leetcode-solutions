@@ -19,7 +19,7 @@ class Solution {
             }
             right--;
 
-            for(int i=)
+            for(int i=b)
         }
 
     }
