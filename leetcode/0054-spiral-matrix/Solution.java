@@ -19,7 +19,7 @@ class Solution {
             }
             right--;
 
-            for(int i=ri; i>=top; i--){
+            for(int i=right; i>=to; i--){
                 res.add(matrix[bottom][i]);
             }
             bottom
