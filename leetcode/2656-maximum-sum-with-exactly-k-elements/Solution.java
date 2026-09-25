@@ -5,7 +5,9 @@ class Solution {
 
         int sum = 0;
 
-        for(int i=0; i<r; i++){}
+        for(int i=0; i<r; i++){
+            s
+        }
         while(r<nums.length){
             sum = sum-nums[l];
             l++;
