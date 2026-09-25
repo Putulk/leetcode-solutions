@@ -10,9 +10,9 @@ class Solution {
                 m = nums[r];
             }
             score = score+nums[n];
-            nums[n] = m+;
+            nums[n] = m+1;
         }
-        return 
+        return n
         
     }
 }
