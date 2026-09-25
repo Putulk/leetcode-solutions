@@ -1,7 +1,7 @@
 class Solution {
     public int maximizeSum(int[] nums, int k) {
         int n = nums.length;
-        int m = Integer.MIN_VALUE;
+        int m = 0;
         int score = 0;
         int l = 0;
         int r = n-1;
@@ -10,7 +10,7 @@ class Solution {
                 m = nums[r];
             }
             score = score+nums[n-1];
-            nums[n-] = m+1;
+            nums[n-1] = m+1;
         }
         return score;
         
