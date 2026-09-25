@@ -7,7 +7,7 @@ class Solution {
         int r = n-1;
         while(l <= r){
             if(nums[l] <= nums[r]){
-                m 
+                m = nums
             }
         }
         
