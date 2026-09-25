@@ -6,7 +6,7 @@ class Solution {
         for(int num: nums){
             m = Math.max(m, num);
         }
-        for(int i=0; i)
+        for(int i=0; i<k; i)
         return score;
         
     }
