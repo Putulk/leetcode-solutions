@@ -4,7 +4,7 @@ class Solution {
         int m = 0;
         int score = 0;
         for(int num: nums){
-            
+            m
         }
         return score;
         
