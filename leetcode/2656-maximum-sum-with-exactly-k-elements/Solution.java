@@ -4,7 +4,6 @@ class Solution {
         int r = k-1;;
 
         int sum = 0;
-        int maxSum = 0;
 
         for(int i=0; i<r; i++){
             sum = sum+nums[i];
