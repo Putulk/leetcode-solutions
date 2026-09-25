@@ -7,7 +7,7 @@ class Solution {
             m = Math.max(m, num);
         }
         for(int i=0; i<k; i++){
-            score += 
+            score += m;
         }
         return score;
         
