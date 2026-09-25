@@ -3,8 +3,6 @@ class Solution {
         int n = nums.length;
         int m = 0;
         int score = 0;
-        int l = 0;
-        int r = n-1;
         for(int i=0; i<k; i++)
             if(nums[l] <= nums[r]){
                 m = nums[r];
