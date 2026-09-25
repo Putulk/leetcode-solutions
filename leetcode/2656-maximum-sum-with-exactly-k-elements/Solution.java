@@ -1,6 +1,7 @@
 class Solution {
     public int maximizeSum(int[] nums, int k) {
-        int l =
+        int l = 0; 
+        int
         
     }
 }
