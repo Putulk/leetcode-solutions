@@ -4,7 +4,7 @@ class Solution {
         int m = Integer.MIN_VALUE;
         int score = 0;
         int l = 0;
-        
+        int r
         while()
         
     }
