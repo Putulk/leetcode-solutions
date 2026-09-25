@@ -8,7 +8,7 @@ class Solution {
         }
         for(int i=0; i<k; i++){
             score += m;
-            
+            m+
         }
         return score;
         
