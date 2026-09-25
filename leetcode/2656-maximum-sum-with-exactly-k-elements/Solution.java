@@ -12,7 +12,7 @@ class Solution {
             score = score+nums[n];
             nums[n] = m+1;
         }
-        return sco
+        return score;
         
     }
 }
