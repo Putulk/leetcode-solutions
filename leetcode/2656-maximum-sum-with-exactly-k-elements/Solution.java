@@ -5,7 +5,7 @@ class Solution {
         int score = 0;
         int l = 0;
         int r = n-1;
-        f
+        for(int)
             if(nums[l] <= nums[r]){
                 m = nums[r];
             }
