@@ -3,7 +3,7 @@ class Solution {
         int l = 0; 
         int r = nums.length;
 
-        int sum = 0
+        int sum =
         
     }
 }
