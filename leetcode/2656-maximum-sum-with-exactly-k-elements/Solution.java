@@ -1,6 +1,6 @@
 class Solution {
     public int maximizeSum(int[] nums, int k) {
         int n = nums.length;
-        int maxElement = Int
+        int maxElement = Integer.M
     }
 }
