@@ -5,7 +5,7 @@ class Solution {
 
         int sum = 0;
 
-        while(r<nums.lengt)
+        while(r<nums.)
         
     }
 }
