@@ -5,7 +5,7 @@ class Solution {
 
         int sum = 0;
 
-        while(r<nu)
+        while(r<n)
         
     }
 }
