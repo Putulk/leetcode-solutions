@@ -9,7 +9,7 @@ class Solution {
             if(nums[l] <= nums[r]){
                 m = nums[r];
             }
-            nums[n] = nums[]
+            nums[n] = n
         }
         
     }
