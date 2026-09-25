@@ -4,6 +4,8 @@ class Solution {
         int maxElement = Integer.MIN_VALUE;
         int score = 0;
 
-        for(int i =0; i<n; i++){}
+        for(int i =0; i<n; i++){
+            if()
+        }
     }
 }
