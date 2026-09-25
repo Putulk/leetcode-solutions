@@ -4,8 +4,6 @@ class Solution {
         int r = k-1;;
 
         int sum = 0;
-
-        f
         while(r<nums.length-1){
             sum = sum-nums[l];
             l++;
