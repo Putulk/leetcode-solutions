@@ -4,6 +4,7 @@ class Solution {
         int r = k-1;;
 
         int sum = 0;
+        int maxSum = 0;
 
         for(int i=0; i<r; i++){
             sum = sum+nums[i];
@@ -12,10 +13,12 @@ class Solution {
             sum = sum-nums[l];
             l++;
             r++;
-            i = sum+nums[r];
+            maxSum = sum+nums[r];
 
+            maxSum = Math.max(maxSum, sum);
 
         }
+        return maxSum;
         
     }
 }
