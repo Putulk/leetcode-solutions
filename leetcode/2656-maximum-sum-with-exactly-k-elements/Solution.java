@@ -10,6 +10,7 @@ class Solution {
                 m = nums[r];
             }
             nums[n] = m;
+            
         }
         
     }
