@@ -10,7 +10,7 @@ class Solution {
                 m = nums[r];
             }
             score = score+nums[n-1];
-            nums[n] = m+1;
+            nums[n-] = m+1;
         }
         return score;
         
