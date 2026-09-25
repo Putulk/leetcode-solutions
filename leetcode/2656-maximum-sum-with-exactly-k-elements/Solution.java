@@ -3,7 +3,7 @@ class Solution {
         int n = nums.length;
         int m = 0;
         int score = 0;
-        for(int i=0; i<k; i++)_
+        for(int i=0; i<k; i++){
             if(nums[i] <= nums[i+1]){
                 m = nums[i+1];
             }
