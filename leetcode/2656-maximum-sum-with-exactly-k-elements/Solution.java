@@ -3,7 +3,7 @@ class Solution {
         int n = nums.length;
         int m = Integer.MIN_VALUE;
         int score = 0;
-        
+        int
         while()
         
     }
