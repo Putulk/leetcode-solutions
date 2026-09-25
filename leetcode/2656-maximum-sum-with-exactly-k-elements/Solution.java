@@ -3,6 +3,6 @@ class Solution {
         int n = nums.length;
         int maxElement = Integer.MIN_VALUE;
 
-        f
+        for(int )
     }
 }
