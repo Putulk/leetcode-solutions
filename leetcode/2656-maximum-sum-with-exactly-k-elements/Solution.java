@@ -4,7 +4,7 @@ class Solution {
         int m = 0;
         int score = 0;
         for(int num: nums){
-            m = Math.max(m)
+            m = Math.max(m, num);
         }
         return score;
         
