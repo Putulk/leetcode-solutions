@@ -1,5 +1,5 @@
 class Solution {
     public int maximizeSum(int[] nums, int k) {
-        int maxElement =
+        int maxElement = nums.lengt
     }
 }
