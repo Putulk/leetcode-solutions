@@ -5,7 +5,7 @@ class Solution {
         int score = 0;
         for(int i=0; i<k; i++)
             if(nums[i] <= nums[i+1]){
-                m = nums[];
+                m = nums[i+1];
             }
             score = score+nums[n-1];
             nums[n-1] = m+1;
