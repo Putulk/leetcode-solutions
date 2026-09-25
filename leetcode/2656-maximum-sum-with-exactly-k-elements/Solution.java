@@ -12,7 +12,7 @@ class Solution {
             sum = sum-nums[l];
             l++;
             r++;
-            sum = sum+nums[r];
+            i = sum+nums[r];
 
 
         }
