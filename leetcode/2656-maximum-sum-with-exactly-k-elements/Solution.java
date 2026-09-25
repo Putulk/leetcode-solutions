@@ -6,7 +6,7 @@ class Solution {
         int l = 0;
         int r = n-1;
         while(l <= r){
-            if(nums)
+            if(nums[l] < )
         }
         
     }
