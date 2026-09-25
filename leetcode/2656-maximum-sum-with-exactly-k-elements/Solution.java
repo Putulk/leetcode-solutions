@@ -3,7 +3,7 @@ class Solution {
         int n = nums.length;
         int m = 0;
         int score = 0;
-        
+        for
         return score;
         
     }
