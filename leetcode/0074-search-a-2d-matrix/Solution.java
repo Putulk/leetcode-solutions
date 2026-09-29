@@ -11,7 +11,7 @@ class Solution {
 
             n = mid/n;
             m = mid%m;
-            int val = matrix[n][]
+            int val = matrix[n][m];
 
         }
     }
