@@ -9,12 +9,12 @@ class Solution {
         while(left <= right){
             int mid = left+(right-left)/2;
 
-            int row = mid/;
+            int row = mid/m;
             int col = mid%m;
-            int val = matrix[n][m];
+            int val = matrix[row][col];
 
-            if(va; == target){
-                val = target;
+            if(val == target){
+                val = true;
             }else if(val < target){
                 n = mid+1;
             }else{
@@ -22,6 +22,7 @@ class Solution {
             }
 
         }
+        return false;
 
     }
 }
