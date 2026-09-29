@@ -14,7 +14,7 @@ class Solution {
             int val = matrix[row][col];
 
             if(val == target){
-                val =true;
+                rtrue;
             }else if(val < target){
                 n = mid+1;
             }else{
