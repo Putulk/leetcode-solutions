@@ -7,7 +7,9 @@ class Solution {
         int right = (m*n)-1;
 
         while(left <= right){
-            int mid = left+(right-left)/
+            int mid = left+(right-left)/2;
+
+            
         }
     }
 }
