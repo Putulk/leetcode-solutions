@@ -16,8 +16,8 @@ class Solution {
             if(va; == target){
                 val = target;
             }else if(val < target){
-                n = mi
-            }
+                n = mid+1;
+            }e
 
         }
     }
