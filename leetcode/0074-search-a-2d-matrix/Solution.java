@@ -18,7 +18,7 @@ class Solution {
             }else if(val < target){
                 row = mid+1;
             }else{
-                m = mid-1;
+                co = mid-1;
             }
 
         }
