@@ -17,7 +17,9 @@ class Solution {
                 val = target;
             }else if(val < target){
                 n = mid+1;
-            }e
+            }else{
+                m
+            }
 
         }
     }
