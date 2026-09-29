@@ -7,7 +7,7 @@ class Solution {
         int right = (m*n)-1;
 
         while(left <= right){
-            int i
+            int m
         }
     }
 }
