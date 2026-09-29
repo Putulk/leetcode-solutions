@@ -13,7 +13,9 @@ class Solution {
             m = mid%m;
             int val = matrix[n][m];
 
-            if(va; == ta)
+            if(va; == target){
+                
+            }
 
         }
     }
