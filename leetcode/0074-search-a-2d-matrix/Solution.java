@@ -9,8 +9,8 @@ class Solution {
         while(left <= right){
             int mid = left+(right-left)/2;
 
-            int r = mid/n;
-            m = mid%m;
+            int row = mid/n;
+             = mid%m;
             int val = matrix[n][m];
 
             if(va; == target){
