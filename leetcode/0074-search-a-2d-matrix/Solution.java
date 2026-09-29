@@ -10,7 +10,7 @@ class Solution {
             int mid = left+(right-left)/2;
 
             int n = mid/n;
-            in
+            int n
         }
     }
 }
