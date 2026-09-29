@@ -11,6 +11,7 @@ class Solution {
 
             n = mid/n;
             m = mid%m;
+            in
 
         }
     }
