@@ -10,7 +10,7 @@ class Solution {
             int mid = left+(right-left)/2;
 
             int row = mid/n;
-             = mid%m;
+            int col = mid%m;
             int val = matrix[n][m];
 
             if(va; == target){
