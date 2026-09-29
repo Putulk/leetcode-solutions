@@ -4,6 +4,6 @@ class Solution {
         int m = matrix[0].length;
 
         int left = 0;
-        int rigth
+        int right = m
     }
 }
