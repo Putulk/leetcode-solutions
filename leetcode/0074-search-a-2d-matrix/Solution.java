@@ -15,7 +15,7 @@ class Solution {
 
             if(va; == target){
                 val = target;
-            }
+            }else i
 
         }
     }
