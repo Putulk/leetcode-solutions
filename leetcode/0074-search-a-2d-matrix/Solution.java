@@ -9,7 +9,7 @@ class Solution {
         while(left <= right){
             int mid = left+(right-left)/2;
 
-            n = mid/n;
+            in = mid/n;
             m = mid%m;
             int val = matrix[n][m];
 
@@ -22,6 +22,6 @@ class Solution {
             }
 
         }
-        
+
     }
 }
