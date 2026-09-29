@@ -11,7 +11,7 @@ class Solution {
 
             n = mid/n;
             m = mid%m;
-            int val
+            int val = matr
 
         }
     }
