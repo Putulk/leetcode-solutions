@@ -9,7 +9,8 @@ class Solution {
         while(left <= right){
             int mid = left+(right-left)/2;
 
-            int n = mid/n
+            int n = mid/n;
+            in
         }
     }
 }
