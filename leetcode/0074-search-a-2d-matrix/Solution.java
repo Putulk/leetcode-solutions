@@ -16,7 +16,7 @@ class Solution {
             if(val == target){
                 return true;
             }else if(val < target){
-                row = mid+1;
+                l = mid+1;
             }else{
                 col = mid-1;
             }
